@@ -1,0 +1,20 @@
+{
+  "id": "tana-national-convention-dallas-2026",
+  "name": "TANA National Convention Dallas 2026",
+  "state": "TX",
+  "city": "Dallas",
+  "venue": "Kay Bailey Hutchison Convention Center",
+  "dateRange": "2026-07-03 to 2026-07-05",
+  "hostOrganization": "TANA",
+  "theme": "Telugu Excellence: Innovation, Identity, Impact",
+  "contactEmail": "info@tana-dallas-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship",
+    "Youth",
+    "Culture",
+    "Community Service",
+    "Matrimony and Family"
+  ],
+  "description": "National-level Telugu convention uniting professionals, families, students, and artists through technology, culture, and service."
+}

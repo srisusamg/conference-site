@@ -1,0 +1,484 @@
+{
+  "sessions": [
+    {
+      "id": "ca-sess-01",
+      "title": "Building Telugu-first AI products",
+      "description": "Building Telugu-first AI products session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Data",
+      "room": "Hall A",
+      "speakerId": "ca-spk-01",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data"
+      ]
+    },
+    {
+      "id": "ca-sess-02",
+      "title": "Founder funding playbook for NRIs",
+      "description": "Founder funding playbook for NRIs session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "10:00 AM - 11:00 AM",
+      "track": "Entrepreneurship",
+      "room": "Hall B",
+      "speakerId": "ca-spk-02",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "id": "ca-sess-03",
+      "title": "From IC to Engineering Manager",
+      "description": "From IC to Engineering Manager session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "11:00 AM - 12:00 PM",
+      "track": "Career",
+      "room": "Hall C",
+      "speakerId": "ca-spk-03",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career"
+      ]
+    },
+    {
+      "id": "ca-sess-04",
+      "title": "Youth debate and leadership labs",
+      "description": "Youth debate and leadership labs session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "12:00 PM - 1:00 PM",
+      "track": "Youth",
+      "room": "Hall D",
+      "speakerId": "ca-spk-04",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth"
+      ]
+    },
+    {
+      "id": "ca-sess-05",
+      "title": "Kuchipudi and folk arts revival",
+      "description": "Kuchipudi and folk arts revival session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "1:00 PM - 2:00 PM",
+      "track": "Culture",
+      "room": "Hall E",
+      "speakerId": "ca-spk-05",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Culture"
+      ]
+    },
+    {
+      "id": "ca-sess-06",
+      "title": "Community volunteering at scale",
+      "description": "Community volunteering at scale session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "2:00 PM - 3:00 PM",
+      "track": "Community Service",
+      "room": "Hall F",
+      "speakerId": "ca-spk-06",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service"
+      ]
+    },
+    {
+      "id": "ca-sess-07",
+      "title": "Modern matrimony expectations",
+      "description": "Modern matrimony expectations session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "3:00 PM - 4:00 PM",
+      "track": "Matrimony and Family",
+      "room": "Hall A",
+      "speakerId": "ca-spk-07",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Matrimony and Family"
+      ]
+    },
+    {
+      "id": "ca-sess-08",
+      "title": "Regional Indian cuisine entrepreneurship",
+      "description": "Regional Indian cuisine entrepreneurship session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Food and Wellness",
+      "room": "Hall B",
+      "speakerId": "ca-spk-08",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Food and Wellness"
+      ]
+    },
+    {
+      "id": "ca-sess-09",
+      "title": "LLM apps for diaspora nonprofits",
+      "description": "LLM apps for diaspora nonprofits session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Data",
+      "room": "Hall C",
+      "speakerId": "ca-spk-09",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data"
+      ]
+    },
+    {
+      "id": "ca-sess-10",
+      "title": "Cloud reliability for growing startups",
+      "description": "Cloud reliability for growing startups session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 1",
+      "time": "10:00 AM - 11:00 AM",
+      "track": "Entrepreneurship",
+      "room": "Hall D",
+      "speakerId": "ca-spk-10",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "id": "ca-sess-11",
+      "title": "Data storytelling for business leaders",
+      "description": "Data storytelling for business leaders session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "11:00 AM - 12:00 PM",
+      "track": "Career",
+      "room": "Hall E",
+      "speakerId": "ca-spk-11",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career"
+      ]
+    },
+    {
+      "id": "ca-sess-12",
+      "title": "Cross-cultural parenting in the US",
+      "description": "Cross-cultural parenting in the US session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "12:00 PM - 1:00 PM",
+      "track": "Youth",
+      "room": "Hall F",
+      "speakerId": "ca-spk-12",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth"
+      ]
+    },
+    {
+      "id": "ca-sess-13",
+      "title": "Women founders acceleration",
+      "description": "Women founders acceleration session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "1:00 PM - 2:00 PM",
+      "track": "Culture",
+      "room": "Hall A",
+      "speakerId": "ca-spk-13",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Culture"
+      ]
+    },
+    {
+      "id": "ca-sess-14",
+      "title": "FinTech and remittance innovation",
+      "description": "FinTech and remittance innovation session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "2:00 PM - 3:00 PM",
+      "track": "Community Service",
+      "room": "Hall B",
+      "speakerId": "ca-spk-14",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service"
+      ]
+    },
+    {
+      "id": "ca-sess-15",
+      "title": "Public speaking for students",
+      "description": "Public speaking for students session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "3:00 PM - 4:00 PM",
+      "track": "Matrimony and Family",
+      "room": "Hall C",
+      "speakerId": "ca-spk-15",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Matrimony and Family"
+      ]
+    },
+    {
+      "id": "ca-sess-16",
+      "title": "Film music production masterclass",
+      "description": "Film music production masterclass session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Food and Wellness",
+      "room": "Hall D",
+      "speakerId": "ca-spk-16",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Food and Wellness"
+      ]
+    },
+    {
+      "id": "ca-sess-17",
+      "title": "Healthcare AI compliance overview",
+      "description": "Healthcare AI compliance overview session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Data",
+      "room": "Hall E",
+      "speakerId": "ca-spk-17",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data"
+      ]
+    },
+    {
+      "id": "ca-sess-18",
+      "title": "Resume to referrals pipeline",
+      "description": "Resume to referrals pipeline session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "10:00 AM - 11:00 AM",
+      "track": "Entrepreneurship",
+      "room": "Hall F",
+      "speakerId": "ca-spk-18",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "id": "ca-sess-19",
+      "title": "Nonprofit grant writing basics",
+      "description": "Nonprofit grant writing basics session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "11:00 AM - 12:00 PM",
+      "track": "Career",
+      "room": "Hall A",
+      "speakerId": "ca-spk-19",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career"
+      ]
+    },
+    {
+      "id": "ca-sess-20",
+      "title": "Sustainable large-event operations",
+      "description": "Sustainable large-event operations session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 2",
+      "time": "12:00 PM - 1:00 PM",
+      "track": "Youth",
+      "room": "Hall B",
+      "speakerId": "ca-spk-20",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth"
+      ]
+    },
+    {
+      "id": "ca-sess-21",
+      "title": "Cybersecurity for SMB owners",
+      "description": "Cybersecurity for SMB owners session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "1:00 PM - 2:00 PM",
+      "track": "Culture",
+      "room": "Hall C",
+      "speakerId": "ca-spk-01",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Culture"
+      ]
+    },
+    {
+      "id": "ca-sess-22",
+      "title": "GenAI for Telugu education tools",
+      "description": "GenAI for Telugu education tools session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "2:00 PM - 3:00 PM",
+      "track": "Community Service",
+      "room": "Hall D",
+      "speakerId": "ca-spk-02",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service"
+      ]
+    },
+    {
+      "id": "ca-sess-23",
+      "title": "Investor-ready pitch decks",
+      "description": "Investor-ready pitch decks session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "3:00 PM - 4:00 PM",
+      "track": "Matrimony and Family",
+      "room": "Hall E",
+      "speakerId": "ca-spk-03",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Matrimony and Family"
+      ]
+    },
+    {
+      "id": "ca-sess-24",
+      "title": "Volunteer leadership council",
+      "description": "Volunteer leadership council session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Food and Wellness",
+      "room": "Hall F",
+      "speakerId": "ca-spk-04",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Food and Wellness"
+      ]
+    },
+    {
+      "id": "ca-sess-25",
+      "title": "Product strategy for AI copilots",
+      "description": "Product strategy for AI copilots session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Data",
+      "room": "Hall A",
+      "speakerId": "ca-spk-05",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data"
+      ]
+    },
+    {
+      "id": "ca-sess-26",
+      "title": "Mental wellness in immigrant life",
+      "description": "Mental wellness in immigrant life session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "10:00 AM - 11:00 AM",
+      "track": "Entrepreneurship",
+      "room": "Hall B",
+      "speakerId": "ca-spk-06",
+      "type": "Keynote",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship"
+      ]
+    },
+    {
+      "id": "ca-sess-27",
+      "title": "Career switch to data engineering",
+      "description": "Career switch to data engineering session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "11:00 AM - 12:00 PM",
+      "track": "Career",
+      "room": "Hall C",
+      "speakerId": "ca-spk-07",
+      "type": "Panel",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career"
+      ]
+    },
+    {
+      "id": "ca-sess-28",
+      "title": "Community media and storytelling",
+      "description": "Community media and storytelling session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "12:00 PM - 1:00 PM",
+      "track": "Youth",
+      "room": "Hall D",
+      "speakerId": "ca-spk-08",
+      "type": "Workshop",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth"
+      ]
+    },
+    {
+      "id": "ca-sess-29",
+      "title": "Telugu language retention at home",
+      "description": "Telugu language retention at home session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "1:00 PM - 2:00 PM",
+      "track": "Culture",
+      "room": "Hall E",
+      "speakerId": "ca-spk-09",
+      "type": "Talk",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Culture"
+      ]
+    },
+    {
+      "id": "ca-sess-30",
+      "title": "Scaling family-run food brands",
+      "description": "Scaling family-run food brands session at ATA Global Telugu Summit San Jose 2026 with practical examples for Telugu/NRI attendees.",
+      "day": "Day 3",
+      "time": "2:00 PM - 3:00 PM",
+      "track": "Community Service",
+      "room": "Hall F",
+      "speakerId": "ca-spk-10",
+      "type": "Roundtable",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service"
+      ]
+    }
+  ]
+}

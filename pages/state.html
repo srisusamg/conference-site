@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Events by State</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="state.html">State Events</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 id="state-heading">Events</h1>
+    <a class="change-state-link" href="../index.html">Change state</a>
+
+    <section id="state-message" class="state-message" hidden aria-live="polite"></section>
+
+    <section id="state-filters" class="state-filters" hidden>
+      <label for="state-search">Search events</label>
+      <input id="state-search" type="search" placeholder="Search by title, city, or tag">
+
+      <p class="tag-filter-label">Filter by tag</p>
+      <div id="state-tag-filters" class="tag-filters" aria-label="Tag filters"></div>
+    </section>
+
+    <section id="state-events" class="event-grid" aria-live="polite"></section>
+  </main>
+
+  <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module" src="../js/state.js"></script>
+</body>
+</html>

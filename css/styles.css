@@ -1,14 +1,35 @@
+:root {
+    --color-bg: #fdfaf4;
+    --color-surface: #ffffff;
+    --color-text: #1f2933;
+    --color-muted: #556070;
+    --color-primary: #d97706;
+    --color-primary-strong: #b45309;
+    --color-secondary: #0f766e;
+    --color-secondary-soft: #e6f5f3;
+    --color-outline: #d7dde5;
+    --shadow-soft: 0 10px 24px rgba(15, 23, 42, 0.08);
+    --radius-card: 14px;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", "Noto Sans Telugu", "Nirmala UI", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #1f1f1f;
+    background-color: var(--color-bg);
+    background-image:
+        radial-gradient(circle at 20px 20px, rgba(217, 119, 6, 0.06) 1.5px, transparent 1.6px),
+        radial-gradient(circle at 60px 60px, rgba(15, 118, 110, 0.05) 1.5px, transparent 1.6px),
+        linear-gradient(135deg, rgba(217, 119, 6, 0.03), rgba(15, 118, 110, 0.03));
+    background-size: 80px 80px, 80px 80px, 100% 100%;
+    color: var(--color-text);
+    line-height: 1.5;
 }
 
 nav {
-    background-color: #333;
+    background-color: var(--color-secondary);
     color: white;
+    box-shadow: 0 4px 14px rgba(15, 118, 110, 0.18);
 }
 
 nav ul {
@@ -25,11 +46,30 @@ nav ul li a {
     text-decoration: none;
     display: inline-block;
     padding: 12px 8px;
+    border-radius: 6px;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.14);
 }
 
 h1 {
     text-align: center;
-    margin: 24px 16px;
+    margin: 24px 16px 18px;
+    font-size: clamp(1.6rem, 2.2vw, 2.15rem);
+    color: #11313b;
+    letter-spacing: 0.02em;
+    position: relative;
+}
+
+h1::after {
+    content: "మన తెలుగు ఈవెంట్స్";
+    display: block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    letter-spacing: 0.01em;
 }
 
 #schedule, #speakers, #venue-info {
@@ -37,7 +77,239 @@ h1 {
 }
 
 main {
-    padding: 0 16px 32px;
+    padding: 0 16px 40px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 8px 0 16px;
+}
+
+.state-selector-wrap {
+    max-width: 980px;
+    margin: 0 auto 24px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+.state-selector-wrap label {
+    font-weight: 600;
+}
+
+.state-selector-wrap select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background-color: var(--color-surface);
+}
+
+.home-search-label {
+    display: block;
+    max-width: 980px;
+    margin: 0 auto 8px;
+    font-weight: 600;
+}
+
+.home-search-input {
+    display: block;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto 16px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background-color: var(--color-surface);
+}
+
+.browse-button {
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 0;
+    background: var(--color-primary);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.browse-button:hover {
+    background: var(--color-primary-strong);
+}
+
+.browse-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.change-state-link {
+    display: block;
+    max-width: 980px;
+    margin: 0 auto 12px;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.state-message {
+    max-width: 980px;
+    margin: 0 auto 16px;
+    background: var(--color-surface);
+    border-radius: var(--radius-card);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-soft);
+}
+
+.state-filters {
+    max-width: 980px;
+    margin: 0 auto 18px;
+}
+
+.state-filters label,
+.tag-filter-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.state-filters input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background: var(--color-surface);
+    margin-bottom: 12px;
+}
+
+.tag-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-chip {
+    border: 1px solid var(--color-secondary);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-secondary);
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.tag-chip.is-active {
+    background: var(--color-secondary);
+    color: white;
+}
+
+.state-card-tags {
+    margin: 8px 0 0;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.selected-event-banner {
+    max-width: 980px;
+    margin: 0 auto 16px;
+    background: var(--color-secondary-soft);
+    border-radius: 12px;
+    padding: 10px 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selected-event-label {
+    color: #24434f;
+    font-size: 0.9rem;
+}
+
+.selected-event-name {
+    color: #111827;
+}
+
+.selected-event-switch {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.event-grid,
+#speakers {
+    display: grid;
+    gap: 16px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.event-card,
+.speaker-card {
+    background: var(--color-surface);
+    border-radius: var(--radius-card);
+    padding: 18px;
+    box-shadow: var(--shadow-soft);
+}
+
+.event-card h2,
+.event-card h3,
+.speaker-name {
+    margin: 0 0 8px;
+}
+
+.event-card-meta {
+    margin: 0 0 8px;
+    color: var(--color-muted);
+    font-weight: 600;
+}
+
+.event-card-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    background: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.event-card-link:hover {
+    background: var(--color-primary-strong);
+}
+
+.event-card-link.is-disabled,
+.event-card-link[aria-disabled="true"] {
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.event-gateway {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.event-hero {
+    display: grid;
+    gap: 8px;
+}
+
+.event-gateway-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.event-cta-grid {
+    margin-top: 10px;
+}
+
+.speaker-bio {
+    margin: 0;
+    color: var(--color-text);
 }
 
 .agenda-filters,
@@ -61,9 +333,9 @@ main {
 .vendor-filters input {
     width: 100%;
     padding: 10px 12px;
-    border-radius: 6px;
-    border: 1px solid #cfcfcf;
-    background-color: white;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background-color: var(--color-surface);
 }
 
 .agenda-toggle {
@@ -82,10 +354,10 @@ main {
 
 .session-card,
 .vendor-card {
-    background: white;
-    border-radius: 10px;
-    padding: 16px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    background: var(--color-surface);
+    border-radius: var(--radius-card);
+    padding: 18px;
+    box-shadow: var(--shadow-soft);
 }
 
 .session-title,
@@ -104,7 +376,7 @@ main {
     display: flex;
     justify-content: space-between;
     font-size: 0.95rem;
-    color: #444;
+    color: var(--color-muted);
 }
 
 .session-actions {
@@ -114,16 +386,16 @@ main {
 
 .session-save {
     padding: 8px 12px;
-    border-radius: 6px;
-    border: 1px solid #2e2e2e;
-    background: #2e2e2e;
+    border-radius: 10px;
+    border: 1px solid var(--color-secondary);
+    background: var(--color-secondary);
     color: white;
     cursor: pointer;
 }
 
 .session-save[aria-pressed="true"] {
-    background: white;
-    color: #2e2e2e;
+    background: var(--color-surface);
+    color: var(--color-secondary);
 }
 
 .vendor-booth {
@@ -133,7 +405,7 @@ main {
 
 .vendor-deal {
     margin: 8px 0 12px;
-    color: #444;
+    color: var(--color-muted);
 }
 
 .vendor-categories {
@@ -144,8 +416,8 @@ main {
 }
 
 .vendor-chip {
-    background: #e9eef4;
-    color: #1f2933;
+    background: #fff4df;
+    color: #7c3e03;
     border-radius: 999px;
     padding: 4px 10px;
     font-size: 0.85rem;
@@ -154,15 +426,15 @@ main {
 .vendor-contact {
     display: inline-block;
     padding: 8px 12px;
-    border-radius: 6px;
-    background: #1f5fbf;
+    border-radius: 10px;
+    background: var(--color-secondary);
     color: white;
     text-decoration: none;
 }
 
 .empty-state {
     text-align: center;
-    color: #666;
+    color: var(--color-muted);
 }
 
 .urgent-banner {
@@ -203,15 +475,15 @@ main {
 }
 
 .announcement-card {
-    background: white;
-    border-radius: 10px;
-    padding: 16px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    background: var(--color-surface);
+    border-radius: var(--radius-card);
+    padding: 18px;
+    box-shadow: var(--shadow-soft);
 }
 
 .announcement-date {
     margin: 0 0 6px;
-    color: #555;
+    color: var(--color-muted);
     font-size: 0.9rem;
 }
 
@@ -222,5 +494,13 @@ main {
 
 .announcement-body {
     margin: 0;
-    color: #333;
+    color: var(--color-text);
+}
+
+input:focus,
+select:focus,
+button:focus,
+a:focus {
+    outline: 2px solid rgba(217, 119, 6, 0.45);
+    outline-offset: 2px;
 }

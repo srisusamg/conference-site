@@ -10,17 +10,32 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="pages/state.html">State Events</a></li>
+            <li><a href="pages/event.html">Event</a></li>
             <li><a href="pages/agenda.html">Agenda</a></li>
-            <li><a href="pages/schedule.html">Schedule</a></li>
             <li><a href="pages/speakers.html">Speakers</a></li>
             <li><a href="pages/vendors.html">Vendors</a></li>
             <li><a href="pages/announcements.html">Announcements</a></li>
-            <li><a href="pages/venue.html">Venue</a></li>
-            <li><a href="pages/registration.html">Registration</a></li>
         </ul>
     </nav>
-    <h1>Welcome to the Conference</h1>
+    <main>
+        <h1>Conference Events Platform</h1>
+
+        <section class="state-selector-wrap">
+            <h2 class="section-title">Find events by state</h2>
+            <label for="state-selector">State</label>
+            <select id="state-selector" name="state-selector"></select>
+            <button id="browse-state-events" class="browse-button" type="button">Browse</button>
+        </section>
+
+        <section>
+            <h2 class="section-title">Popular Telugu NRI Events</h2>
+            <label for="event-search" class="home-search-label">Search events</label>
+            <input id="event-search" class="home-search-input" type="search" placeholder="Search by title, city, or tag">
+            <div id="featured-events" class="event-grid" aria-live="polite"></div>
+        </section>
+    </main>
     <script type="module" src="js/shared/urgent-banner.js"></script>
-    <script src="js/main.js"></script>
+    <script type="module" src="js/home.js"></script>
 </body>
 </html>

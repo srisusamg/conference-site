@@ -1,0 +1,285 @@
+{
+  "events": [
+    {
+      "id": "tana-national-convention-dallas-2026",
+      "name": "TANA National Convention Dallas 2026",
+      "state": "TX",
+      "city": "Dallas",
+      "venue": "Kay Bailey Hutchison Convention Center",
+      "dateRange": "2026-07-03 to 2026-07-05",
+      "featured": true,
+      "popularityScore": 98,
+      "hostOrganization": "TANA",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Convention",
+        "Tech",
+        "Culture",
+        "Youth",
+        "Matrimony",
+        "Community Service"
+      ],
+      "description": "Flagship Telugu diaspora gathering with leadership forums, AI and startup tracks, classical performances, youth coding challenges, and community seva drives."
+    },
+    {
+      "id": "ata-global-summit-sanjose-2026",
+      "name": "ATA Global Telugu Summit San Jose 2026",
+      "state": "CA",
+      "city": "San Jose",
+      "venue": "San Jose McEnery Convention Center",
+      "dateRange": "2026-08-14 to 2026-08-16",
+      "featured": true,
+      "popularityScore": 96,
+      "hostOrganization": "ATA",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI",
+        "Entrepreneurship",
+        "Culture",
+        "Food",
+        "Youth Leadership"
+      ],
+      "description": "A global Telugu-forward summit focused on AI careers, founder networking, women leadership, film music nights, food festivals, and mentoring for second-generation youth."
+    },
+    {
+      "id": "nats-east-coast-meet-edison-2026",
+      "name": "NATS East Coast Telugu Meet 2026",
+      "state": "NJ",
+      "city": "Edison",
+      "venue": "New Jersey Convention and Exposition Center",
+      "dateRange": "2026-05-22 to 2026-05-24",
+      "featured": false,
+      "popularityScore": 90,
+      "hostOrganization": "NATS",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Family",
+        "Health",
+        "Business Networking",
+        "Cultural Show"
+      ],
+      "description": "East Coast Telugu families gather for health camps, diaspora business networking, devotional music, and youth public speaking competitions."
+    },
+    {
+      "id": "telugu-innovation-forum-queens-2026",
+      "name": "Telugu Innovation Forum Queens 2026",
+      "state": "NY",
+      "city": "Queens",
+      "venue": "Queens College Student Union",
+      "dateRange": "2026-09-12",
+      "featured": false,
+      "popularityScore": 84,
+      "hostOrganization": "New York Telugu Professionals Council",
+      "tags": [
+        "Telugu",
+        "AI",
+        "Startup",
+        "FinTech",
+        "Career Growth",
+        "Mentorship"
+      ],
+      "description": "One-day innovation forum spotlighting Telugu founders, AI product demos, and immigrant career acceleration workshops."
+    },
+    {
+      "id": "nova-telugu-family-fest-2026",
+      "name": "NoVA Telugu Family Fest 2026",
+      "state": "VA",
+      "city": "Fairfax",
+      "venue": "Fairfax County Government Center",
+      "dateRange": "2026-06-20",
+      "featured": false,
+      "popularityScore": 82,
+      "hostOrganization": "NoVA Telugu Association",
+      "tags": [
+        "Telugu",
+        "Family",
+        "Food Stalls",
+        "Dance",
+        "Matrimony",
+        "Community Service"
+      ],
+      "description": "Community-led Telugu family festival with regional food stalls, dance competitions, matrimony introductions, and charity fundraising."
+    },
+    {
+      "id": "chicago-telugu-tech-culture-conclave-2026",
+      "name": "Chicago Telugu Tech and Culture Conclave 2026",
+      "state": "IL",
+      "city": "Chicago",
+      "venue": "Donald E. Stephens Convention Center",
+      "dateRange": "2026-10-02 to 2026-10-03",
+      "featured": false,
+      "popularityScore": 86,
+      "hostOrganization": "Chicago Telugu Association",
+      "tags": [
+        "Telugu",
+        "Tech",
+        "Cloud",
+        "Culture",
+        "Youth Coding",
+        "Volunteering"
+      ],
+      "description": "Blends cloud engineering sessions, youth coding camps, and Telugu literary-cultural showcases with volunteering opportunities."
+    },
+    {
+      "id": "atlanta-telugu-entrepreneurs-forum-2026",
+      "name": "Atlanta Telugu Entrepreneurs Forum 2026",
+      "state": "GA",
+      "city": "Atlanta",
+      "venue": "Cobb Galleria Centre",
+      "dateRange": "2026-04-18",
+      "featured": false,
+      "popularityScore": 81,
+      "hostOrganization": "Georgia Telugu Entrepreneurs Network",
+      "tags": [
+        "Telugu",
+        "Entrepreneurship",
+        "SMB",
+        "AI",
+        "Startup Pitch",
+        "Networking"
+      ],
+      "description": "Founder-focused Telugu event featuring startup pitches, SMB AI adoption clinics, and community investor networking."
+    },
+    {
+      "id": "florida-telugu-sunshine-utsavam-2026",
+      "name": "Florida Telugu Sunshine Utsavam 2026",
+      "state": "FL",
+      "city": "Orlando",
+      "venue": "Orange County Convention Center",
+      "dateRange": "2026-11-07",
+      "featured": false,
+      "popularityScore": 79,
+      "hostOrganization": "Florida Telugu Cultural Society",
+      "tags": [
+        "Telugu",
+        "Culture",
+        "Food Festival",
+        "Cinema Music",
+        "Kids Activities"
+      ],
+      "description": "A sunshine-themed Telugu utsavam with food festival lanes, cinema music medleys, and family-friendly kids zones."
+    },
+    {
+      "id": "seattle-telugu-ai-builders-day-2026",
+      "name": "Seattle Telugu AI Builders Day 2026",
+      "state": "WA",
+      "city": "Seattle",
+      "venue": "Seattle Convention Center",
+      "dateRange": "2026-03-28",
+      "featured": false,
+      "popularityScore": 87,
+      "hostOrganization": "Seattle Telugu Tech Collective",
+      "tags": [
+        "Telugu",
+        "AI",
+        "Cloud",
+        "LLM",
+        "Career",
+        "Hackathon"
+      ],
+      "description": "Hands-on day for Telugu engineers exploring LLM systems, cloud-native AI deployments, and career growth tracks."
+    },
+    {
+      "id": "arizona-telugu-sahiti-sammelanam-2026",
+      "name": "Arizona Telugu Sahiti Sammelanam 2026",
+      "state": "AZ",
+      "city": "Phoenix",
+      "venue": "Phoenix Convention Center",
+      "dateRange": "2026-09-26",
+      "featured": false,
+      "popularityScore": 75,
+      "hostOrganization": "Arizona Telugu Kala Samithi",
+      "tags": [
+        "Telugu",
+        "Literature",
+        "Poetry",
+        "Drama",
+        "Culture",
+        "Community"
+      ],
+      "description": "Celebrates Telugu literature, poetry, and theater while connecting local families and volunteers."
+    },
+    {
+      "id": "carolina-telugu-youth-leadership-camp-2026",
+      "name": "Carolina Telugu Youth Leadership Camp 2026",
+      "state": "NC",
+      "city": "Raleigh",
+      "venue": "Raleigh Convention Center",
+      "dateRange": "2026-06-13",
+      "featured": false,
+      "popularityScore": 78,
+      "hostOrganization": "Carolinas Telugu Association",
+      "tags": [
+        "Telugu",
+        "Youth",
+        "Leadership",
+        "STEM",
+        "Debate",
+        "Mentorship"
+      ],
+      "description": "Leadership and STEM camp for Telugu youth featuring debates, design thinking labs, and mentor circles."
+    },
+    {
+      "id": "new-england-telugu-community-connect-2026",
+      "name": "New England Telugu Community Connect 2026",
+      "state": "MA",
+      "city": "Boston",
+      "venue": "Hynes Convention Center",
+      "dateRange": "2026-10-24",
+      "featured": false,
+      "popularityScore": 80,
+      "hostOrganization": "New England Telugu Association",
+      "tags": [
+        "Telugu",
+        "Community",
+        "Career Fair",
+        "Education",
+        "Service"
+      ],
+      "description": "Community connect for Telugu professionals and families with education counseling, career fair booths, and seva initiatives."
+    },
+    {
+      "id": "pennsylvania-telugu-business-mela-2026",
+      "name": "Pennsylvania Telugu Business Mela 2026",
+      "state": "PA",
+      "city": "Philadelphia",
+      "venue": "Pennsylvania Convention Center",
+      "dateRange": "2026-04-04",
+      "featured": false,
+      "popularityScore": 77,
+      "hostOrganization": "PA Telugu Business Network",
+      "tags": [
+        "Telugu",
+        "Business",
+        "Franchise",
+        "SME",
+        "Networking",
+        "Food"
+      ],
+      "description": "Business mela connecting Telugu small business owners, franchise experts, and community investors with cultural performances."
+    },
+    {
+      "id": "michigan-telugu-winter-cultural-gala-2026",
+      "name": "Michigan Telugu Winter Cultural Gala 2026",
+      "state": "MI",
+      "city": "Novi",
+      "venue": "Suburban Collection Showplace",
+      "dateRange": "2026-12-05",
+      "featured": false,
+      "popularityScore": 76,
+      "hostOrganization": "Michigan Telugu Kala Vedika",
+      "tags": [
+        "Telugu",
+        "Cultural Show",
+        "Classical Dance",
+        "Family",
+        "Food",
+        "Charity"
+      ],
+      "description": "Winter gala with Kuchipudi/Bharatanatyam showcases, festive food counters, and charity drives supporting education back home."
+    }
+  ]
+}

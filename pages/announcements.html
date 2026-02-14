@@ -10,22 +10,23 @@
   <nav>
     <ul>
       <li><a href="../index.html">Home</a></li>
+      <li><a href="state.html">State Events</a></li>
+      <li><a href="event.html">Event</a></li>
       <li><a href="agenda.html">Agenda</a></li>
-      <li><a href="schedule.html">Schedule</a></li>
       <li><a href="speakers.html">Speakers</a></li>
       <li><a href="vendors.html">Vendors</a></li>
       <li><a href="announcements.html">Announcements</a></li>
-      <li><a href="venue.html">Venue</a></li>
-      <li><a href="registration.html">Registration</a></li>
     </ul>
   </nav>
 
   <main>
     <h1>Announcements</h1>
+    <section id="selected-event-banner" class="selected-event-banner" hidden></section>
     <section id="announcement-list" class="announcement-list" aria-live="polite"></section>
   </main>
 
   <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module" src="../js/shared/selected-event-banner.js"></script>
   <script type="module" src="../js/announcements/announcements.js"></script>
 </body>
 </html>

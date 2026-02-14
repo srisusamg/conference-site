@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Event</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="state.html">State Events</a></li>
+      <li><a href="event.html">Event</a></li>
+    </ul>
+  </nav>
+
+  <main class="event-gateway event-hero">
+    <a class="change-state-link" href="../index.html">Switch event</a>
+    <h1 id="event-title">Event</h1>
+    <p id="event-date" class="event-card-meta"></p>
+    <p id="event-location" class="event-card-meta"></p>
+    <p id="event-description"></p>
+    <section id="event-message" class="state-message" hidden aria-live="polite"></section>
+
+    <section class="event-gateway-links event-cta-grid">
+      <a id="goto-agenda" class="event-card-link" href="agenda.html">Agenda</a>
+      <a id="goto-speakers" class="event-card-link" href="speakers.html">Speakers</a>
+      <a id="goto-vendors" class="event-card-link" href="vendors.html">Vendors</a>
+      <a id="goto-announcements" class="event-card-link" href="announcements.html">Announcements</a>
+      <a id="goto-venue" class="event-card-link" href="venue.html">Venue</a>
+    </section>
+  </main>
+
+  <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module" src="../js/event.js"></script>
+</body>
+</html>
