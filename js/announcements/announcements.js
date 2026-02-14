@@ -1,3 +1,6 @@
+import { url } from "../shared/basePath.js";
+import { requireEventId, eventDataPath } from "../eventContext.js";
+
 function parseDate(value) {
   const parsed = new Date(value);
   return Number.isNaN(parsed.getTime()) ? null : parsed;
@@ -68,23 +71,31 @@ function renderAnnouncements(container, items) {
   container.appendChild(fragment);
 }
 
-async function loadAnnouncements() {
-  const response = await fetch("/data/announcements.json");
+async function loadAnnouncements(eventId) {
+  const response = await fetch(url(eventDataPath(eventId, "announcements.json")));
   if (!response.ok) {
     throw new Error(`Failed to load announcements: ${response.status}`);
   }
+
   const payload = await response.json();
   return Array.isArray(payload.announcements) ? payload.announcements : [];
 }
 
 async function initAnnouncements() {
+  const eventId = requireEventId();
+  if (!eventId) {
+    return;
+  }
+
+  localStorage.setItem("selectedEventId", eventId);
+
   const list = document.getElementById("announcement-list");
   if (!list) {
     return;
   }
 
   try {
-    const announcements = await loadAnnouncements();
+    const announcements = await loadAnnouncements(eventId);
     const sorted = sortByNewest(announcements);
     renderAnnouncements(list, sorted);
   } catch (error) {

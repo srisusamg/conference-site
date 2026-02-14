@@ -1,0 +1,304 @@
+{
+  "vendors": [
+    {
+      "id": "ca-ven-01",
+      "name": "Andhra Spice Trails",
+      "booth": "A101",
+      "categories": [
+        "Food",
+        "Catering"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact1@andhra-spice-trails.example",
+      "website": "https://andhra-spice-trails.example"
+    },
+    {
+      "id": "ca-ven-02",
+      "name": "Rayalaseema Ruchulu",
+      "booth": "B102",
+      "categories": [
+        "Food",
+        "Snacks"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact2@rayalaseema-ruchulu.example",
+      "website": "https://rayalaseema-ruchulu.example"
+    },
+    {
+      "id": "ca-ven-03",
+      "name": "Telugu Threads Boutique",
+      "booth": "C103",
+      "categories": [
+        "Fashion",
+        "Ethnic Wear"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact3@telugu-threads-boutique.example",
+      "website": "https://telugu-threads-boutique.example"
+    },
+    {
+      "id": "ca-ven-04",
+      "name": "Mana Matrimony Connect",
+      "booth": "D104",
+      "categories": [
+        "Matrimony",
+        "Community"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact4@mana-matrimony-connect.example",
+      "website": "https://mana-matrimony-connect.example"
+    },
+    {
+      "id": "ca-ven-05",
+      "name": "NRI Tax Assist",
+      "booth": "E105",
+      "categories": [
+        "Finance",
+        "Tax"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact5@nri-tax-assist.example",
+      "website": "https://nri-tax-assist.example"
+    },
+    {
+      "id": "ca-ven-06",
+      "name": "Cloud Telugu Labs",
+      "booth": "F106",
+      "categories": [
+        "Tech",
+        "AI"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact6@cloud-telugu-labs.example",
+      "website": "https://cloud-telugu-labs.example"
+    },
+    {
+      "id": "ca-ven-07",
+      "name": "Smart Remit Hub",
+      "booth": "A107",
+      "categories": [
+        "FinTech",
+        "Remittance"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact7@smart-remit-hub.example",
+      "website": "https://smart-remit-hub.example"
+    },
+    {
+      "id": "ca-ven-08",
+      "name": "Desi Home Loans USA",
+      "booth": "B108",
+      "categories": [
+        "Real Estate",
+        "Finance"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact8@desi-home-loans-usa.example",
+      "website": "https://desi-home-loans-usa.example"
+    },
+    {
+      "id": "ca-ven-09",
+      "name": "Kuchipudi Kala Academy",
+      "booth": "C109",
+      "categories": [
+        "Culture",
+        "Education"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact9@kuchipudi-kala-academy.example",
+      "website": "https://kuchipudi-kala-academy.example"
+    },
+    {
+      "id": "ca-ven-10",
+      "name": "Telugu Kids STEM Club",
+      "booth": "D110",
+      "categories": [
+        "Education",
+        "Youth"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact10@telugu-kids-stem-club.example",
+      "website": "https://telugu-kids-stem-club.example"
+    },
+    {
+      "id": "ca-ven-11",
+      "name": "South Bay Biryani House",
+      "booth": "E111",
+      "categories": [
+        "Food",
+        "Restaurant"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact11@south-bay-biryani-house.example",
+      "website": "https://south-bay-biryani-house.example"
+    },
+    {
+      "id": "ca-ven-12",
+      "name": "Deccan Startups Guild",
+      "booth": "F112",
+      "categories": [
+        "Startup",
+        "Networking"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact12@deccan-startups-guild.example",
+      "website": "https://deccan-startups-guild.example"
+    },
+    {
+      "id": "ca-ven-13",
+      "name": "Ayur Wellness Center",
+      "booth": "A113",
+      "categories": [
+        "Health",
+        "Wellness"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact13@ayur-wellness-center.example",
+      "website": "https://ayur-wellness-center.example"
+    },
+    {
+      "id": "ca-ven-14",
+      "name": "VisaPath Advisors",
+      "booth": "B114",
+      "categories": [
+        "Immigration",
+        "Legal"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact14@visapath-advisors.example",
+      "website": "https://visapath-advisors.example"
+    },
+    {
+      "id": "ca-ven-15",
+      "name": "Mana Media House",
+      "booth": "C115",
+      "categories": [
+        "Media",
+        "Community"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact15@mana-media-house.example",
+      "website": "https://mana-media-house.example"
+    },
+    {
+      "id": "ca-ven-16",
+      "name": "Seva Blood Drive Foundation",
+      "booth": "D116",
+      "categories": [
+        "Community Service",
+        "Health"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact16@seva-blood-drive-foundation.example",
+      "website": "https://seva-blood-drive-foundation.example"
+    },
+    {
+      "id": "ca-ven-17",
+      "name": "Telugu Career Bridge",
+      "booth": "E117",
+      "categories": [
+        "Career",
+        "Coaching"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact17@telugu-career-bridge.example",
+      "website": "https://telugu-career-bridge.example"
+    },
+    {
+      "id": "ca-ven-18",
+      "name": "Andhra Grocers Direct",
+      "booth": "F118",
+      "categories": [
+        "Retail",
+        "Food"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact18@andhra-grocers-direct.example",
+      "website": "https://andhra-grocers-direct.example"
+    },
+    {
+      "id": "ca-ven-19",
+      "name": "Youth Robotics Telugu",
+      "booth": "A119",
+      "categories": [
+        "Youth",
+        "STEM"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact19@youth-robotics-telugu.example",
+      "website": "https://youth-robotics-telugu.example"
+    },
+    {
+      "id": "ca-ven-20",
+      "name": "Sankranthi Events Co",
+      "booth": "B120",
+      "categories": [
+        "Events",
+        "Culture"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact20@sankranthi-events-co.example",
+      "website": "https://sankranthi-events-co.example"
+    },
+    {
+      "id": "ca-ven-21",
+      "name": "Temple Volunteer Network",
+      "booth": "C121",
+      "categories": [
+        "Community Service",
+        "Spiritual"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact21@temple-volunteer-network.example",
+      "website": "https://temple-volunteer-network.example"
+    },
+    {
+      "id": "ca-ven-22",
+      "name": "Film Beats Live",
+      "booth": "D122",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact22@film-beats-live.example",
+      "website": "https://film-beats-live.example"
+    },
+    {
+      "id": "ca-ven-23",
+      "name": "Curry Leaf Kitchens",
+      "booth": "E123",
+      "categories": [
+        "Food",
+        "Cloud Kitchen"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact23@curry-leaf-kitchens.example",
+      "website": "https://curry-leaf-kitchens.example"
+    },
+    {
+      "id": "ca-ven-24",
+      "name": "Women Founder Collective",
+      "booth": "F124",
+      "categories": [
+        "Entrepreneurship",
+        "Women"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact24@women-founder-collective.example",
+      "website": "https://women-founder-collective.example"
+    },
+    {
+      "id": "ca-ven-25",
+      "name": "Digital Telugu Tutor",
+      "booth": "A125",
+      "categories": [
+        "Education",
+        "Language"
+      ],
+      "deal": "Special convention offer for San Jose attendees.",
+      "email": "contact25@digital-telugu-tutor.example",
+      "website": "https://digital-telugu-tutor.example"
+    }
+  ]
+}

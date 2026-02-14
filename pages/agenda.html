@@ -10,17 +10,19 @@
   <nav>
     <ul>
       <li><a href="../index.html">Home</a></li>
+      <li><a href="state.html">State Events</a></li>
+      <li><a href="event.html">Event</a></li>
       <li><a href="agenda.html">Agenda</a></li>
-      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
       <li><a href="vendors.html">Vendors</a></li>
       <li><a href="announcements.html">Announcements</a></li>
-      <li><a href="speakers.html">Speakers</a></li>
       <li><a href="venue.html">Venue</a></li>
     </ul>
   </nav>
 
   <main>
     <h1>Conference Agenda</h1>
+    <section id="selected-event-banner" class="selected-event-banner" hidden></section>
 
     <section class="agenda-filters">
       <label for="day-filter">Day</label>
@@ -42,10 +44,13 @@
   </main>
 
   <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module" src="../js/shared/selected-event-banner.js"></script>
   <script type="module">
     import { renderSessions } from "../js/agenda/render.js";
     import { buildFilterOptions, applyFilters } from "../js/agenda/filters.js";
     import { loadSavedIds, toggleSavedId } from "../js/agenda/storage.js";
+    import { url } from "../js/shared/basePath.js";
+    import { requireEventId, eventDataPath } from "../js/eventContext.js";
 
     const state = {
       sessions: [],
@@ -109,10 +114,17 @@
 
     async function loadSessions() {
       try {
-        const response = await fetch("/data/sessions.json");
+        const eventId = requireEventId();
+        if (!eventId) {
+          return;
+        }
+
+        localStorage.setItem("selectedEventId", eventId);
+        const response = await fetch(url(eventDataPath(eventId, "sessions.json")));
         if (!response.ok) {
           throw new Error(`Failed to load sessions: ${response.status}`);
         }
+
         const payload = await response.json();
         const sessions = Array.isArray(payload.sessions) ? payload.sessions : [];
         state.sessions = normalizeSessions(sessions);

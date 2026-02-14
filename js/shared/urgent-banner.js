@@ -1,11 +1,6 @@
-async function loadAnnouncements() {
-  const response = await fetch("/data/announcements.json");
-  if (!response.ok) {
-    throw new Error(`Failed to load announcements: ${response.status}`);
-  }
-  const payload = await response.json();
-  return Array.isArray(payload.announcements) ? payload.announcements : [];
-}
+import { loadEventsCatalog, findEventById, getFeaturedEvents } from "./dataLoader.js";
+import { getEventContext } from "./eventContext.js";
+
 
 function parseDate(value) {
   const parsed = new Date(value);
@@ -66,7 +61,14 @@ function renderUrgentBanner(announcement) {
 
 async function initUrgentBanner() {
   try {
-    const announcements = await loadAnnouncements();
+    const events = await loadEventsCatalog();
+    const context = getEventContext();
+
+    const selectedEvent = findEventById(events, context.eventId);
+    const fallbackEvent = getFeaturedEvents(events)[0] || null;
+    const activeEvent = selectedEvent || fallbackEvent;
+
+    const announcements = Array.isArray(activeEvent?.announcements) ? activeEvent.announcements : [];
     const urgentItems = announcements.filter((item) => item.urgent === true);
     if (!urgentItems.length) {
       return;

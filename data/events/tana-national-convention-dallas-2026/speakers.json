@@ -1,0 +1,244 @@
+{
+  "speakers": [
+    {
+      "id": "tx-spk-01",
+      "name": "Dr. Sreedevi Narra",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Dr. Sreedevi Narra is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-02",
+      "name": "Raghavendra Challa",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Raghavendra Challa is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-03",
+      "name": "Madhuri Velagapudi",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Madhuri Velagapudi is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-04",
+      "name": "Pranav Kandula",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Pranav Kandula is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-05",
+      "name": "Anusha Kommineni",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Anusha Kommineni is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-06",
+      "name": "Vivek Muppidi",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Vivek Muppidi is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-07",
+      "name": "Lavanya Gottipati",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Lavanya Gottipati is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-08",
+      "name": "Harish Kethireddy",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Harish Kethireddy is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-09",
+      "name": "Keerthi Alapati",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Keerthi Alapati is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-10",
+      "name": "Arjun Marella",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Arjun Marella is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-11",
+      "name": "Sowmya Nerella",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Sowmya Nerella is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-12",
+      "name": "Nikhil Vangala",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Nikhil Vangala is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-13",
+      "name": "Sindhu Madala",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Sindhu Madala is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-14",
+      "name": "Tarun Pasupuleti",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Tarun Pasupuleti is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-15",
+      "name": "Bhargavi Uppala",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Bhargavi Uppala is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-16",
+      "name": "Ravi Sunkara",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Ravi Sunkara is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-17",
+      "name": "Meghana Pulipati",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Meghana Pulipati is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-18",
+      "name": "Sai Teja Garapati",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Sai Teja Garapati is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-19",
+      "name": "Jyothi Vanam",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Jyothi Vanam is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "tx-spk-20",
+      "name": "Karthik Gurram",
+      "title": "Speaker",
+      "organization": "tana-national-convention-dallas-2026",
+      "bio": "Karthik Gurram is a Telugu/NRI community expert covering technology, culture, and leadership topics.",
+      "topics": [
+        "Telugu Community",
+        "Technology",
+        "Leadership"
+      ]
+    }
+  ]
+}

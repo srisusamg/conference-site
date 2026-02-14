@@ -1,0 +1,20 @@
+{
+  "id": "ata-global-summit-sanjose-2026",
+  "name": "ATA Global Telugu Summit San Jose 2026",
+  "state": "CA",
+  "city": "San Jose",
+  "venue": "San Jose McEnery Convention Center",
+  "dateRange": "2026-08-14 to 2026-08-16",
+  "hostOrganization": "ATA",
+  "theme": "Global Telugu Future: AI, Entrepreneurship, Culture",
+  "contactEmail": "hello@ata-sanjose-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Founder Growth",
+    "Career Development",
+    "Youth",
+    "Cultural Showcase",
+    "Community Wellness"
+  ],
+  "description": "Global Telugu summit featuring AI builders, founders, cultural performers, youth leaders, and high-impact community initiatives."
+}
