@@ -1,0 +1,31 @@
+{
+  "sessions": [
+    {
+      "id": "session-1",
+      "title": "Opening Keynote: Building Community Abroad",
+      "time": "09:00 AM - 10:00 AM",
+      "day": "Day 1",
+      "track": "Keynote",
+      "room": "Main Hall",
+      "speaker": "Aarav Patel"
+    },
+    {
+      "id": "session-2",
+      "title": "Startup Stories: From India to the USA",
+      "time": "10:15 AM - 11:00 AM",
+      "day": "Day 1",
+      "track": "Entrepreneurship",
+      "room": "Room A",
+      "speaker": "Neha Iyer"
+    },
+    {
+      "id": "session-3",
+      "title": "Cultural Showcase: Music and Dance",
+      "time": "02:00 PM - 03:00 PM",
+      "day": "Day 2",
+      "track": "Culture",
+      "room": "Auditorium",
+      "speaker": "Ravi Desai"
+    }
+  ]
+}

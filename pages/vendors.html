@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Vendors</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="vendors.html">Vendors</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="venue.html">Venue</a></li>
+      <li><a href="registration.html">Registration</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Vendor Expo</h1>
+
+    <section class="vendor-filters">
+      <label for="vendor-category">Category</label>
+      <select id="vendor-category" name="vendor-category"></select>
+
+      <label for="vendor-search">Search</label>
+      <input id="vendor-search" type="search" placeholder="Search vendors">
+    </section>
+
+    <section id="vendor-list" aria-live="polite"></section>
+  </main>
+
+  <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module">
+    import { renderVendors } from "../js/vendors/render.js";
+    import { buildCategoryOptions, applyFilters } from "../js/vendors/filters.js";
+
+    const vendorList = document.getElementById("vendor-list");
+    const categorySelect = document.getElementById("vendor-category");
+    const searchInput = document.getElementById("vendor-search");
+
+    const state = {
+      vendors: []
+    };
+
+    function populateCategorySelect(categories) {
+      categorySelect.innerHTML = "";
+
+      const allOption = document.createElement("option");
+      allOption.value = "all";
+      allOption.textContent = "All";
+      categorySelect.appendChild(allOption);
+
+      categories.forEach((category) => {
+        const option = document.createElement("option");
+        option.value = category;
+        option.textContent = category;
+        categorySelect.appendChild(option);
+      });
+    }
+
+    function render() {
+      const filtered = applyFilters(state.vendors, {
+        category: categorySelect.value,
+        query: searchInput.value
+      });
+
+      renderVendors(vendorList, filtered);
+    }
+
+    function attachListeners() {
+      categorySelect.addEventListener("change", render);
+      searchInput.addEventListener("input", render);
+    }
+
+    async function loadVendors() {
+      try {
+        const response = await fetch("/data/vendors.json");
+        if (!response.ok) {
+          throw new Error(`Failed to load vendors: ${response.status}`);
+        }
+        const payload = await response.json();
+        state.vendors = Array.isArray(payload.vendors) ? payload.vendors : [];
+
+        const categories = buildCategoryOptions(state.vendors);
+        populateCategorySelect(categories);
+
+        render();
+      } catch (error) {
+        console.error(error);
+        vendorList.textContent = "Unable to load vendors right now.";
+      }
+    }
+
+    attachListeners();
+    loadVendors();
+  </script>
+</body>
+</html>

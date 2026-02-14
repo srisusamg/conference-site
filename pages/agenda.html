@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Agenda</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="vendors.html">Vendors</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="venue.html">Venue</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Conference Agenda</h1>
+
+    <section class="agenda-filters">
+      <label for="day-filter">Day</label>
+      <select id="day-filter" name="day-filter"></select>
+
+      <label for="track-filter">Track</label>
+      <select id="track-filter" name="track-filter"></select>
+
+      <label for="agenda-search">Search</label>
+      <input id="agenda-search" type="search" placeholder="Search sessions">
+
+      <label class="agenda-toggle" for="my-schedule-toggle">
+        <input id="my-schedule-toggle" type="checkbox">
+        My Schedule
+      </label>
+    </section>
+
+    <section id="agenda-list" aria-live="polite"></section>
+  </main>
+
+  <script type="module" src="../js/shared/urgent-banner.js"></script>
+  <script type="module">
+    import { renderSessions } from "../js/agenda/render.js";
+    import { buildFilterOptions, applyFilters } from "../js/agenda/filters.js";
+    import { loadSavedIds, toggleSavedId } from "../js/agenda/storage.js";
+
+    const state = {
+      sessions: [],
+      savedIds: loadSavedIds()
+    };
+
+    const agendaList = document.getElementById("agenda-list");
+    const dayFilter = document.getElementById("day-filter");
+    const trackFilter = document.getElementById("track-filter");
+    const searchInput = document.getElementById("agenda-search");
+    const myScheduleToggle = document.getElementById("my-schedule-toggle");
+
+    function populateSelect(select, options) {
+      select.innerHTML = "";
+      const allOption = document.createElement("option");
+      allOption.value = "all";
+      allOption.textContent = "All";
+      select.appendChild(allOption);
+
+      options.forEach((optionValue) => {
+        const option = document.createElement("option");
+        option.value = optionValue;
+        option.textContent = optionValue;
+        select.appendChild(option);
+      });
+    }
+
+    function normalizeSessions(sessions) {
+      return sessions.map((session, index) => {
+        const id = session.id ?? session.sessionId ?? `session-${index + 1}`;
+        return {
+          ...session,
+          id: String(id)
+        };
+      });
+    }
+
+    function renderAgenda() {
+      const filtered = applyFilters(state.sessions, {
+        day: dayFilter.value,
+        track: trackFilter.value,
+        query: searchInput.value,
+        onlySaved: myScheduleToggle.checked,
+        savedIds: state.savedIds
+      });
+
+      renderSessions(agendaList, filtered, state.savedIds, (sessionId) => {
+        toggleSavedId(state.savedIds, sessionId);
+        renderAgenda();
+      });
+    }
+
+    function attachListeners() {
+      [dayFilter, trackFilter].forEach((select) => {
+        select.addEventListener("change", renderAgenda);
+      });
+
+      searchInput.addEventListener("input", renderAgenda);
+      myScheduleToggle.addEventListener("change", renderAgenda);
+    }
+
+    async function loadSessions() {
+      try {
+        const response = await fetch("/data/sessions.json");
+        if (!response.ok) {
+          throw new Error(`Failed to load sessions: ${response.status}`);
+        }
+        const payload = await response.json();
+        const sessions = Array.isArray(payload.sessions) ? payload.sessions : [];
+        state.sessions = normalizeSessions(sessions);
+
+        const { days, tracks } = buildFilterOptions(state.sessions);
+        populateSelect(dayFilter, days);
+        populateSelect(trackFilter, tracks);
+
+        renderAgenda();
+      } catch (error) {
+        console.error(error);
+        agendaList.textContent = "Unable to load agenda right now.";
+      }
+    }
+
+    attachListeners();
+    loadSessions();
+  </script>
+</body>
+</html>

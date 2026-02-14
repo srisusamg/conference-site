@@ -1,0 +1,28 @@
+{
+  "vendors": [
+    {
+      "id": "vendor-1",
+      "name": "Desi Delights Catering",
+      "booth": "B12",
+      "categories": ["Food", "Catering"],
+      "deal": "10% off catering packages booked at the conference.",
+      "email": "hello@desidelights.example"
+    },
+    {
+      "id": "vendor-2",
+      "name": "Travel Mosaic",
+      "booth": "A07",
+      "categories": ["Travel", "Tours"],
+      "deal": "Free itinerary review for families visiting India.",
+      "email": "team@travelmosaic.example"
+    },
+    {
+      "id": "vendor-3",
+      "name": "Bharat Banking",
+      "booth": "C04",
+      "categories": ["Finance"],
+      "deal": "Conference-only rate on remittance transfers.",
+      "email": "events@bharatbanking.example"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "announcements": [
+    {
+      "id": "announce-1",
+      "date": "2026-02-12",
+      "title": "Shuttle Service Added",
+      "body": "Free shuttles will run every 20 minutes from the main hotel to the venue.",
+      "urgent": false
+    },
+    {
+      "id": "announce-2",
+      "date": "2026-02-14",
+      "title": "Weather Advisory",
+      "body": "Light rain expected on Saturday. Please bring a jacket for evening events.",
+      "urgent": true
+    },
+    {
+      "id": "announce-3",
+      "date": "2026-02-13",
+      "title": "Welcome Reception Reminder",
+      "body": "Join us at 6:00 PM in the atrium for networking and refreshments.",
+      "urgent": false
+    }
+  ]
+}

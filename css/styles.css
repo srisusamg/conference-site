@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #1f1f1f;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 8px;
+}
+
+h1 {
+    text-align: center;
+    margin: 24px 16px;
+}
+
+#schedule, #speakers, #venue-info {
+    padding: 20px;
+}
+
+main {
+    padding: 0 16px 32px;
+}
+
+.agenda-filters,
+.vendor-filters {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    align-items: end;
+    margin: 0 auto 24px;
+    max-width: 980px;
+}
+
+.agenda-filters label,
+.vendor-filters label {
+    font-weight: 600;
+}
+
+.agenda-filters select,
+.agenda-filters input,
+.vendor-filters select,
+.vendor-filters input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+    background-color: white;
+}
+
+.agenda-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#agenda-list,
+#vendor-list {
+    display: grid;
+    gap: 16px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.session-card,
+.vendor-card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.session-title,
+.vendor-name {
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+}
+
+.session-meta-list {
+    display: grid;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.session-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.session-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.session-save {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #2e2e2e;
+    background: #2e2e2e;
+    color: white;
+    cursor: pointer;
+}
+
+.session-save[aria-pressed="true"] {
+    background: white;
+    color: #2e2e2e;
+}
+
+.vendor-booth {
+    margin: 0 0 8px;
+    font-weight: 600;
+}
+
+.vendor-deal {
+    margin: 8px 0 12px;
+    color: #444;
+}
+
+.vendor-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.vendor-chip {
+    background: #e9eef4;
+    color: #1f2933;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.85rem;
+}
+
+.vendor-contact {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #1f5fbf;
+    color: white;
+    text-decoration: none;
+}
+
+.empty-state {
+    text-align: center;
+    color: #666;
+}
+
+.urgent-banner {
+    background: #b91c1c;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+}
+
+.urgent-label {
+    background: white;
+    color: #b91c1c;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.urgent-date {
+    opacity: 0.9;
+    font-size: 0.85rem;
+}
+
+.urgent-body {
+    flex: 1 1 240px;
+}
+
+.announcement-list {
+    display: grid;
+    gap: 16px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.announcement-card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.announcement-date {
+    margin: 0 0 6px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.announcement-title {
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+}
+
+.announcement-body {
+    margin: 0;
+    color: #333;
+}
