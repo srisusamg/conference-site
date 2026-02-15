@@ -1,7 +1,9 @@
 import { url } from "../shared/basePath.js";
 import { requireEventId, eventDataPath } from "../eventContext.js";
+import { showSkeleton, clearSkeleton, showStatus } from "../shared/renderStates.js";
 
 function renderVenue(container, conference) {
+  clearSkeleton(container);
   container.innerHTML = "";
 
   const card = document.createElement("article");
@@ -39,6 +41,9 @@ async function initVenue() {
   localStorage.setItem("selectedEventId", eventId);
 
   try {
+    container.setAttribute("aria-busy", "true");
+    showSkeleton(container, { count: 1 });
+
     const response = await fetch(url(eventDataPath(eventId, "conference.json")));
     if (!response.ok) {
       throw new Error(`Failed to load venue details: ${response.status}`);
@@ -48,7 +53,9 @@ async function initVenue() {
     renderVenue(container, conference);
   } catch (error) {
     console.error(error);
-    container.textContent = "Unable to load venue details right now.";
+    showStatus(container, "Unable to load venue details right now.", "error");
+  } finally {
+    container.setAttribute("aria-busy", "false");
   }
 }
 

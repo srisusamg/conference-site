@@ -1,14 +1,13 @@
 import { url } from "../shared/basePath.js";
 import { requireEventId, eventDataPath } from "../eventContext.js";
+import { showSkeleton, clearSkeleton, showStatus } from "../shared/renderStates.js";
 
 function renderSpeakers(container, speakers) {
+  clearSkeleton(container);
   container.innerHTML = "";
 
   if (!speakers.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty-state";
-    empty.textContent = "No speakers published for this event yet.";
-    container.appendChild(empty);
+    showStatus(container, "No speakers published for this event yet.", "empty");
     return;
   }
 
@@ -47,6 +46,9 @@ async function initSpeakers() {
   }
 
   try {
+    container.setAttribute("aria-busy", "true");
+    showSkeleton(container, { count: 3 });
+
     const response = await fetch(url(eventDataPath(eventId, "speakers.json")));
     if (!response.ok) {
       throw new Error(`Failed to load speakers: ${response.status}`);
@@ -56,7 +58,9 @@ async function initSpeakers() {
     renderSpeakers(container, Array.isArray(payload.speakers) ? payload.speakers : []);
   } catch (error) {
     console.error(error);
-    container.textContent = "Unable to load speakers right now.";
+    showStatus(container, "Unable to load speakers right now.", "error");
+  } finally {
+    container.setAttribute("aria-busy", "false");
   }
 }
 

@@ -1,5 +1,6 @@
 import { url, withQuery } from "./shared/basePath.js";
 import { setEventContext } from "./shared/eventContext.js";
+import { showSkeleton, clearSkeleton, showStatus } from "./shared/renderStates.js";
 
 function createEventCard(event) {
   const card = document.createElement("article");
@@ -17,7 +18,7 @@ function createEventCard(event) {
 
   const link = document.createElement("a");
   link.className = "event-card-link";
-  link.href = withQuery("pages/event.html", { state: event.state, event: event.id });
+  link.href = withQuery("pages/event.html", { id: event.id });
   link.textContent = "View event";
   link.addEventListener("click", () => {
     setEventContext({ state: event.state, eventId: event.id });
@@ -80,6 +81,9 @@ async function initHome() {
   }
 
   try {
+    featuredList.setAttribute("aria-busy", "true");
+    showSkeleton(featuredList, { count: 2 });
+
     const response = await fetch(url("data/events.json"));
     if (!response.ok) {
       throw new Error(`Failed to load events: ${response.status}`);
@@ -104,14 +108,12 @@ async function initHome() {
     });
 
     function renderCards() {
+      clearSkeleton(featuredList);
       const visible = applySearch(featuredEvents, searchInput.value);
       featuredList.innerHTML = "";
 
       if (!visible.length) {
-        const empty = document.createElement("p");
-        empty.className = "empty-state";
-        empty.textContent = "No popular events match your search.";
-        featuredList.appendChild(empty);
+        showStatus(featuredList, "No popular events match your search.", "empty");
         return;
       }
 
@@ -144,7 +146,9 @@ async function initHome() {
     renderCards();
   } catch (error) {
     console.error(error);
-    featuredList.textContent = "Unable to load featured events right now.";
+    showStatus(featuredList, "Unable to load featured events right now.", "error");
+  } finally {
+    featuredList.setAttribute("aria-busy", "false");
   }
 }
 

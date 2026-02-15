@@ -1,4 +1,5 @@
 import { url, withQuery } from "./shared/basePath.js";
+import { showSkeleton, clearSkeleton, showStatus } from "./shared/renderStates.js";
 
 function getSelectedState() {
   const params = new URLSearchParams(window.location.search);
@@ -120,6 +121,9 @@ async function initStatePage() {
   heading.textContent = `Events in ${state}`;
 
   try {
+    list.setAttribute("aria-busy", "true");
+    showSkeleton(list, { count: 3 });
+
     const response = await fetch(url("data/events.json"));
     if (!response.ok) {
       throw new Error(`Failed to load events: ${response.status}`);
@@ -150,7 +154,7 @@ async function initStatePage() {
         message,
         `No events found for ${state}. <a href="../index.html">Change state</a>.`
       );
-      list.innerHTML = "";
+      showStatus(list, "No events found for this state yet.", "empty");
       return;
     }
 
@@ -169,14 +173,12 @@ async function initStatePage() {
     };
 
     function render() {
+      clearSkeleton(list);
       const filtered = applyFilters(stateEvents, uiState.query, uiState.activeTag);
       list.innerHTML = "";
 
       if (!filtered.length) {
-        const empty = document.createElement("p");
-        empty.className = "empty-state";
-        empty.textContent = "No events match your filters.";
-        list.appendChild(empty);
+        showStatus(list, "No events match your filters.", "empty");
       } else {
         filtered.forEach((event) => {
           list.appendChild(createEventCard(event));
@@ -198,7 +200,9 @@ async function initStatePage() {
   } catch (error) {
     console.error(error);
     showMessage(message, "Unable to load events right now. Please try again shortly.");
-    list.innerHTML = "";
+    showStatus(list, "Unable to load events right now.", "error");
+  } finally {
+    list.setAttribute("aria-busy", "false");
   }
 }
 
