@@ -24,6 +24,45 @@
     <h1>Conference Agenda</h1>
     <section id="selected-event-banner" class="selected-event-banner" hidden></section>
 
+    <section id="autopilot-panel" class="autopilot-panel state-message">
+      <h2 class="section-title">Autopilot My Day</h2>
+
+      <label for="autopilot-interest">What are you into?</label>
+      <input id="autopilot-interest" type="search" placeholder="AI, startups, workshops, networking">
+
+      <div class="autopilot-grid">
+        <div>
+          <label for="autopilot-day">Day</label>
+          <select id="autopilot-day" name="autopilot-day">
+            <option value="all">All</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="autopilot-earliest">Earliest start</label>
+          <input id="autopilot-earliest" type="time">
+        </div>
+
+        <div>
+          <label for="autopilot-max">Max sessions</label>
+          <input id="autopilot-max" type="number" min="1" max="8" value="4">
+        </div>
+
+        <label class="agenda-toggle" for="autopilot-workshops">
+          <input id="autopilot-workshops" type="checkbox">
+          Prefer workshops
+        </label>
+      </div>
+
+      <div class="autopilot-actions">
+        <button id="autopilot-build" class="browse-button" type="button">Build my schedule</button>
+        <button id="autopilot-save-all" class="browse-button" type="button" disabled>Save all to My Schedule</button>
+      </div>
+
+      <p id="autopilot-status" class="event-card-meta">Autopilot is ready.</p>
+      <section id="autopilot-timeline" class="autopilot-timeline" aria-live="polite"></section>
+    </section>
+
     <section class="agenda-filters">
       <label for="day-filter">Day</label>
       <select id="day-filter" name="day-filter"></select>
@@ -47,14 +86,16 @@
   <script type="module" src="../js/shared/selected-event-banner.js"></script>
   <script type="module">
     import { renderSessions } from "../js/agenda/render.js";
+    import { initAgendaAutopilot } from "../js/agenda/autopilot.js";
     import { buildFilterOptions, applyFilters } from "../js/agenda/filters.js";
-    import { loadSavedIds, toggleSavedId } from "../js/agenda/storage.js";
+    import { loadSavedIds, toggleSavedId, saveManyIds } from "../js/agenda/storage.js";
     import { url } from "../js/shared/basePath.js";
     import { requireEventId, eventDataPath } from "../js/eventContext.js";
 
     const state = {
       sessions: [],
-      savedIds: loadSavedIds()
+      savedIds: new Set(),
+      eventId: null
     };
 
     const agendaList = document.getElementById("agenda-list");
@@ -98,7 +139,7 @@
       });
 
       renderSessions(agendaList, filtered, state.savedIds, (sessionId) => {
-        toggleSavedId(state.savedIds, sessionId);
+        toggleSavedId(state.savedIds, sessionId, state.eventId);
         renderAgenda();
       });
     }
@@ -119,6 +160,8 @@
           return;
         }
 
+        state.eventId = eventId;
+        state.savedIds = loadSavedIds(eventId);
         localStorage.setItem("selectedEventId", eventId);
         const response = await fetch(url(eventDataPath(eventId, "sessions.json")));
         if (!response.ok) {
@@ -132,6 +175,19 @@
         const { days, tracks } = buildFilterOptions(state.sessions);
         populateSelect(dayFilter, days);
         populateSelect(trackFilter, tracks);
+
+        initAgendaAutopilot({
+          eventId,
+          sessions: state.sessions,
+          saveSessionIds: (sessionIds) => {
+            saveManyIds(state.savedIds, sessionIds, eventId);
+            renderAgenda();
+          },
+          onSaved: () => {
+            myScheduleToggle.checked = true;
+            renderAgenda();
+          }
+        });
 
         renderAgenda();
       } catch (error) {

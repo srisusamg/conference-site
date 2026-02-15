@@ -1,0 +1,436 @@
+{
+  "sessions": [
+    {
+      "id": "il-sess-01",
+      "title": "Opening Keynote: Future of Telugu NRI Leadership",
+      "description": "Opening Keynote: Future of Telugu NRI Leadership at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "Leadership and Community",
+      "room": "Hall A",
+      "speakerId": "il-spk-01",
+      "type": "Keynote",
+      "primaryTrack": "Leadership",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Leadership",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-02",
+      "title": "Applied AI for Telugu Community Services",
+      "description": "Applied AI for Telugu Community Services at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "AI and Data",
+      "room": "Hall B",
+      "speakerId": "il-spk-02",
+      "type": "Workshop",
+      "primaryTrack": "AI and Data",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-03",
+      "title": "Women in Tech: Growth to Executive Roles",
+      "description": "Women in Tech: Growth to Executive Roles at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Women in Tech",
+      "room": "Hall C",
+      "speakerId": "il-spk-03",
+      "type": "Panel",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-04",
+      "title": "Youth Hackathon Launch: Build for Bharat",
+      "description": "Youth Hackathon Launch: Build for Bharat at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Youth and Hackathon",
+      "room": "Hall D",
+      "speakerId": "il-spk-04",
+      "type": "Youth",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-05",
+      "title": "Startup & Business Expo Showfloor Kickoff",
+      "description": "Startup & Business Expo Showfloor Kickoff at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Startup and Business Expo",
+      "room": "Hall E",
+      "speakerId": "il-spk-05",
+      "type": "Expo",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-06",
+      "title": "Healthcare for NRI Families: Preventive Care",
+      "description": "Healthcare for NRI Families: Preventive Care at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Health and Wellness",
+      "room": "Hall F",
+      "speakerId": "il-spk-06",
+      "type": "Talk",
+      "primaryTrack": "Health",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Health",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-07",
+      "title": "Devotional Seva Planning for Local Temples",
+      "description": "Devotional Seva Planning for Local Temples at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Devotional and Community Service",
+      "room": "Hall G",
+      "speakerId": "il-spk-07",
+      "type": "Community Service",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-08",
+      "title": "Cultural Night Rehearsal: Telugu Classics",
+      "description": "Cultural Night Rehearsal: Telugu Classics at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Cultural Night",
+      "room": "Hall H",
+      "speakerId": "il-spk-08",
+      "type": "Cultural",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-09",
+      "title": "Cloud Careers and Interview Readiness",
+      "description": "Cloud Careers and Interview Readiness at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "Career Growth",
+      "room": "Hall A",
+      "speakerId": "il-spk-09",
+      "type": "Workshop",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-10",
+      "title": "FinTech, Remittance, and Compliance 2026",
+      "description": "FinTech, Remittance, and Compliance 2026 at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "Business and Finance",
+      "room": "Hall B",
+      "speakerId": "il-spk-10",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-11",
+      "title": "College Admissions for Telugu High Schoolers",
+      "description": "College Admissions for Telugu High Schoolers at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Education and Youth",
+      "room": "Hall C",
+      "speakerId": "il-spk-11",
+      "type": "Talk",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-12",
+      "title": "Immigration and Visa Planning Q&A",
+      "description": "Immigration and Visa Planning Q&A at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Immigration and Legal",
+      "room": "Hall D",
+      "speakerId": "il-spk-12",
+      "type": "Panel",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-13",
+      "title": "Andhra Food Entrepreneurship Masterclass",
+      "description": "Andhra Food Entrepreneurship Masterclass at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Food Street and SME",
+      "room": "Hall E",
+      "speakerId": "il-spk-13",
+      "type": "Workshop",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-14",
+      "title": "Media, Storytelling, and Telugu Identity",
+      "description": "Media, Storytelling, and Telugu Identity at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Culture and Media",
+      "room": "Hall F",
+      "speakerId": "il-spk-14",
+      "type": "Talk",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-15",
+      "title": "Mental Wellness for Busy Professionals",
+      "description": "Mental Wellness for Busy Professionals at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Health and Wellness",
+      "room": "Hall G",
+      "speakerId": "il-spk-15",
+      "type": "Talk",
+      "primaryTrack": "Health",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Health",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-16",
+      "title": "Matrimony Conversations for Modern Families",
+      "description": "Matrimony Conversations for Modern Families at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Family and Community",
+      "room": "Hall H",
+      "speakerId": "il-spk-16",
+      "type": "Panel",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-17",
+      "title": "Product Management for AI Startups",
+      "description": "Product Management for AI Startups at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Product",
+      "room": "Hall A",
+      "speakerId": "il-spk-17",
+      "type": "Workshop",
+      "primaryTrack": "AI and Data",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-18",
+      "title": "Youth Hackathon Finals and Awards",
+      "description": "Youth Hackathon Finals and Awards at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "Youth and Hackathon",
+      "room": "Hall B",
+      "speakerId": "il-spk-18",
+      "type": "Youth",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-19",
+      "title": "Investor AMA: From MVP to Series A",
+      "description": "Investor AMA: From MVP to Series A at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Startup Fundraising",
+      "room": "Hall C",
+      "speakerId": "il-spk-01",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-20",
+      "title": "Temple Volunteering and Blood Drive Ops",
+      "description": "Temple Volunteering and Blood Drive Ops at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Devotional and Community Service",
+      "room": "Hall D",
+      "speakerId": "il-spk-02",
+      "type": "Community Service",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-21",
+      "title": "Cultural Night Main Stage Performance",
+      "description": "Cultural Night Main Stage Performance at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Cultural Night",
+      "room": "Hall E",
+      "speakerId": "il-spk-03",
+      "type": "Cultural",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-22",
+      "title": "Career Switch Playbook for H1B Professionals",
+      "description": "Career Switch Playbook for H1B Professionals at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Career Growth",
+      "room": "Hall F",
+      "speakerId": "il-spk-04",
+      "type": "Talk",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-23",
+      "title": "Women Founder Spotlight and Pitch Clinic",
+      "description": "Women Founder Spotlight and Pitch Clinic at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Women in Tech",
+      "room": "Hall G",
+      "speakerId": "il-spk-05",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "il-sess-24",
+      "title": "Closing Plenary: Build, Serve, Celebrate",
+      "description": "Closing Plenary: Build, Serve, Celebrate at Chicago Telugu Tech and Culture Conclave 2026 in Chicago, IL with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Leadership and Community",
+      "room": "Hall H",
+      "speakerId": "il-spk-06",
+      "type": "Keynote",
+      "primaryTrack": "Leadership",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Leadership",
+        "Chicago"
+      ]
+    }
+  ]
+}

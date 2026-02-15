@@ -1,0 +1,100 @@
+{
+  "announcements": [
+    {
+      "id": "il-ann-01",
+      "date": "2026-09-20",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 1",
+      "body": "Early check-in starts at 7:30 AM near the main registration gate.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-02",
+      "date": "2026-09-21",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 2",
+      "body": "Food Street token counters open 30 minutes before the first session.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-03",
+      "date": "2026-09-22",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 3",
+      "body": "Youth hackathon teams must submit final builds by 5:00 PM on Day 2.",
+      "urgent": true,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-04",
+      "date": "2026-09-23",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 4",
+      "body": "Cultural night seat allocation starts at 6:00 PM in the main auditorium.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-05",
+      "date": "2026-09-24",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 5",
+      "body": "Startup expo mentor office hours are now live on the event board.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-06",
+      "date": "2026-09-25",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 6",
+      "body": "Devotional seva drive buses depart from the north entrance at 7:45 AM.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-07",
+      "date": "2026-09-26",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 7",
+      "body": "Women in Tech networking breakfast moved to Hall C due to demand.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-08",
+      "date": "2026-09-27",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 8",
+      "body": "Health screening slots are filling fast; pre-book at info desk.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-09",
+      "date": "2026-09-28",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 9",
+      "body": "Parking Lot B is full; use overflow parking in Lot D.",
+      "urgent": true,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-10",
+      "date": "2026-09-29",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 10",
+      "body": "Closing plenary starts 15 minutes earlier than originally planned.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-11",
+      "date": "2026-09-30",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 11",
+      "body": "Volunteer T-shirt pickup remains open until 9:00 PM tonight.",
+      "urgent": false,
+      "audience": "All Attendees"
+    },
+    {
+      "id": "il-ann-12",
+      "date": "2026-10-01",
+      "title": "Chicago Telugu Tech and Culture Conclave 2026 Update 12",
+      "body": "Matrimony meet-and-greet lounge opens after lunch in Hall F.",
+      "urgent": false,
+      "audience": "All Attendees"
+    }
+  ]
+}

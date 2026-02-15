@@ -1,0 +1,21 @@
+{
+  "id": "chicago-telugu-tech-culture-conclave-2026",
+  "name": "Chicago Telugu Tech and Culture Conclave 2026",
+  "state": "IL",
+  "city": "Chicago",
+  "venue": "Donald E. Stephens Convention Center",
+  "dateRange": "2026-10-02 to 2026-10-03",
+  "hostOrganization": "Chicago Telugu Association",
+  "theme": "Telugu/Indian NRI Growth, Culture, and Innovation in Chicago",
+  "contactEmail": "hello@chicago-telugu-tech-culture-conclave-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship and Startup Expo",
+    "Career and Women in Tech",
+    "Youth and Hackathon",
+    "Cultural Night Showcase",
+    "Devotional and Community Service",
+    "Food Street and Family"
+  ],
+  "description": "Chicago Telugu Tech and Culture Conclave 2026 unites Telugu/Indian NRI families in Chicago with technology, entrepreneurship, cultural programs, and seva-driven community events."
+}

@@ -1,9 +1,24 @@
-const STORAGE_KEY = "my-schedule";
+const LEGACY_STORAGE_KEY = "my-schedule";
 
-export function loadSavedIds() {
+function getStorageKey(eventId) {
+  if (eventId) {
+    return `mySchedule:${eventId}`;
+  }
+  return LEGACY_STORAGE_KEY;
+}
+
+export function loadSavedIds(eventId) {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(getStorageKey(eventId));
     if (!raw) {
+      if (eventId) {
+        const legacy = localStorage.getItem(LEGACY_STORAGE_KEY);
+        if (!legacy) {
+          return new Set();
+        }
+        const legacyParsed = JSON.parse(legacy);
+        return Array.isArray(legacyParsed) ? new Set(legacyParsed.map(String)) : new Set();
+      }
       return new Set();
     }
     const parsed = JSON.parse(raw);
@@ -17,17 +32,24 @@ export function loadSavedIds() {
   }
 }
 
-export function persistSavedIds(savedIds) {
+export function persistSavedIds(savedIds, eventId) {
   const payload = Array.from(savedIds);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+  localStorage.setItem(getStorageKey(eventId), JSON.stringify(payload));
 }
 
-export function toggleSavedId(savedIds, sessionId) {
+export function toggleSavedId(savedIds, sessionId, eventId) {
   const key = String(sessionId);
   if (savedIds.has(key)) {
     savedIds.delete(key);
   } else {
     savedIds.add(key);
   }
-  persistSavedIds(savedIds);
+  persistSavedIds(savedIds, eventId);
+}
+
+export function saveManyIds(savedIds, sessionIds, eventId) {
+  sessionIds.forEach((sessionId) => {
+    savedIds.add(String(sessionId));
+  });
+  persistSavedIds(savedIds, eventId);
 }

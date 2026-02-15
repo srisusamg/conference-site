@@ -1,4 +1,5 @@
 import { url } from "../shared/basePath.js";
+import { announcementAnchorId } from "../shared/anchorIds.js";
 import { requireEventId, eventDataPath } from "../eventContext.js";
 
 function parseDate(value) {
@@ -48,9 +49,10 @@ function renderAnnouncements(container, items) {
 
   const fragment = document.createDocumentFragment();
 
-  items.forEach((item) => {
+  items.forEach((item, index) => {
     const card = document.createElement("article");
     card.className = "announcement-card";
+    card.id = announcementAnchorId(item.id || item.title || `announcement-${index + 1}`);
 
     const date = document.createElement("p");
     date.className = "announcement-date";
