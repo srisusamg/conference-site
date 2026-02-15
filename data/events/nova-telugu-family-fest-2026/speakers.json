@@ -1,0 +1,238 @@
+{
+  "speakers": [
+    {
+      "id": "va-spk-01",
+      "name": "Kiranmayi Pinninti",
+      "title": "AI Architect",
+      "organization": "CloudBridge AI",
+      "bio": "Kiranmayi Pinninti is a Telugu/Indian diaspora leader in Fairfax focused on cloudbridge ai initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-02",
+      "name": "Phanindra Rachakonda",
+      "title": "Founder & CEO",
+      "organization": "Mana Ventures",
+      "bio": "Phanindra Rachakonda is a Telugu/Indian diaspora leader in Fairfax focused on mana ventures initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-03",
+      "name": "Sushmita Mannava",
+      "title": "Cardiologist",
+      "organization": "Sanjeevani Health Network",
+      "bio": "Sushmita Mannava is a Telugu/Indian diaspora leader in Fairfax focused on sanjeevani health network initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-04",
+      "name": "Rohith Komaragiri",
+      "title": "Classical Artist",
+      "organization": "Natya Vedika USA",
+      "bio": "Rohith Komaragiri is a Telugu/Indian diaspora leader in Fairfax focused on natya vedika usa initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-05",
+      "name": "Lavanya Velivela",
+      "title": "Community Lead",
+      "organization": "Telugu Seva Circle",
+      "bio": "Lavanya Velivela is a Telugu/Indian diaspora leader in Fairfax focused on telugu seva circle initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-06",
+      "name": "Anudeep Paruchuri",
+      "title": "Product Director",
+      "organization": "NorthStar FinTech",
+      "bio": "Anudeep Paruchuri is a Telugu/Indian diaspora leader in Fairfax focused on northstar fintech initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-07",
+      "name": "Bhargavi Malladi",
+      "title": "Startup Mentor",
+      "organization": "IndUS Launchpad",
+      "bio": "Bhargavi Malladi is a Telugu/Indian diaspora leader in Fairfax focused on indus launchpad initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-08",
+      "name": "Sandeep Pulipati",
+      "title": "Women in Tech Chair",
+      "organization": "WomenCode Telugu",
+      "bio": "Sandeep Pulipati is a Telugu/Indian diaspora leader in Fairfax focused on womencode telugu initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-09",
+      "name": "Ananya Kommareddy",
+      "title": "Youth Mentor",
+      "organization": "NextGen Telugu Labs",
+      "bio": "Ananya Kommareddy is a Telugu/Indian diaspora leader in Fairfax focused on nextgen telugu labs initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-10",
+      "name": "Vivek Sunkara",
+      "title": "Immigration Attorney",
+      "organization": "Pathway Legal Group",
+      "bio": "Vivek Sunkara is a Telugu/Indian diaspora leader in Fairfax focused on pathway legal group initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-11",
+      "name": "Keerthana Pusapati",
+      "title": "Tax Advisor",
+      "organization": "NRI Tax Desk",
+      "bio": "Keerthana Pusapati is a Telugu/Indian diaspora leader in Fairfax focused on nri tax desk initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-12",
+      "name": "Praveen Donepudi",
+      "title": "Real Estate Broker",
+      "organization": "Desi Homes Realty",
+      "bio": "Praveen Donepudi is a Telugu/Indian diaspora leader in Fairfax focused on desi homes realty initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-13",
+      "name": "Sowjanya Peddinti",
+      "title": "Cybersecurity Lead",
+      "organization": "SecureGrid Systems",
+      "bio": "Sowjanya Peddinti is a Telugu/Indian diaspora leader in Fairfax focused on securegrid systems initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-14",
+      "name": "Aravind Vatluri",
+      "title": "Data Scientist",
+      "organization": "InsightBloom Analytics",
+      "bio": "Aravind Vatluri is a Telugu/Indian diaspora leader in Fairfax focused on insightbloom analytics initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-15",
+      "name": "Navya Kondapalli",
+      "title": "Public Health Specialist",
+      "organization": "WellSpring Clinics",
+      "bio": "Navya Kondapalli is a Telugu/Indian diaspora leader in Fairfax focused on wellspring clinics initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-16",
+      "name": "Sai Kiran Pinninti",
+      "title": "Film Music Curator",
+      "organization": "Raaga Echo Collective",
+      "bio": "Sai Kiran Pinninti is a Telugu/Indian diaspora leader in Fairfax focused on raaga echo collective initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-17",
+      "name": "Sindhu Rachakonda",
+      "title": "College Admissions Coach",
+      "organization": "IvyPath Coaching",
+      "bio": "Sindhu Rachakonda is a Telugu/Indian diaspora leader in Fairfax focused on ivypath coaching initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    },
+    {
+      "id": "va-spk-18",
+      "name": "Raghu Mannava",
+      "title": "Temple Trustee",
+      "organization": "Sri Venkateswara Community",
+      "bio": "Raghu Mannava is a Telugu/Indian diaspora leader in Fairfax focused on sri venkateswara community initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Fairfax"
+      ]
+    }
+  ]
+}

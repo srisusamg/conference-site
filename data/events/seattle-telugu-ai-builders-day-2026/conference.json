@@ -1,0 +1,21 @@
+{
+  "id": "seattle-telugu-ai-builders-day-2026",
+  "name": "Seattle Telugu AI Builders Day 2026",
+  "state": "WA",
+  "city": "Seattle",
+  "venue": "Seattle Convention Center",
+  "dateRange": "2026-03-28",
+  "hostOrganization": "Seattle Telugu Tech Collective",
+  "theme": "Telugu/Indian NRI Growth, Culture, and Innovation in Seattle",
+  "contactEmail": "hello@seattle-telugu-ai-builders-day-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship and Startup Expo",
+    "Career and Women in Tech",
+    "Youth and Hackathon",
+    "Cultural Night Showcase",
+    "Devotional and Community Service",
+    "Food Street and Family"
+  ],
+  "description": "Seattle Telugu AI Builders Day 2026 unites Telugu/Indian NRI families in Seattle with technology, entrepreneurship, cultural programs, and seva-driven community events."
+}

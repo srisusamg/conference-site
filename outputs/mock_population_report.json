@@ -1,0 +1,66 @@
+{
+  "totalEvents": 14,
+  "targetPopulated": 7,
+  "existingPopulatedBefore": [
+    "tana-national-convention-dallas-2026",
+    "ata-global-summit-sanjose-2026"
+  ],
+  "selectedForPopulation": [
+    "nats-east-coast-meet-edison-2026",
+    "telugu-innovation-forum-queens-2026",
+    "nova-telugu-family-fest-2026",
+    "chicago-telugu-tech-culture-conclave-2026",
+    "seattle-telugu-ai-builders-day-2026"
+  ],
+  "vaEventsInMaster": [
+    "nova-telugu-family-fest-2026"
+  ],
+  "report": [
+    {
+      "id": "nats-east-coast-meet-edison-2026",
+      "state": "NJ",
+      "sessions": 24,
+      "speakers": 18,
+      "vendors": 24,
+      "announcements": 12,
+      "urgentAnnouncements": 2
+    },
+    {
+      "id": "telugu-innovation-forum-queens-2026",
+      "state": "NY",
+      "sessions": 24,
+      "speakers": 18,
+      "vendors": 24,
+      "announcements": 12,
+      "urgentAnnouncements": 2
+    },
+    {
+      "id": "nova-telugu-family-fest-2026",
+      "state": "VA",
+      "sessions": 24,
+      "speakers": 18,
+      "vendors": 24,
+      "announcements": 12,
+      "urgentAnnouncements": 2
+    },
+    {
+      "id": "chicago-telugu-tech-culture-conclave-2026",
+      "state": "IL",
+      "sessions": 24,
+      "speakers": 18,
+      "vendors": 24,
+      "announcements": 12,
+      "urgentAnnouncements": 2
+    },
+    {
+      "id": "seattle-telugu-ai-builders-day-2026",
+      "state": "WA",
+      "sessions": 24,
+      "speakers": 18,
+      "vendors": 24,
+      "announcements": 12,
+      "urgentAnnouncements": 2
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:25.616Z"
+}

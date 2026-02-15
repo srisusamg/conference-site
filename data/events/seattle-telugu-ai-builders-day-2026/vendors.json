@@ -1,0 +1,310 @@
+{
+  "vendors": [
+    {
+      "id": "wa-ven-01",
+      "name": "Godavari Street Biryani",
+      "booth": "A11",
+      "categories": [
+        "Food Street",
+        "Food Court"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info1@godavari-street-biryani.example",
+      "website": "https://godavari-street-biryani.example",
+      "popularItems": [
+        "Hyderabadi Dum Biryani",
+        "Chicken 65",
+        "Gongura Mutton",
+        "Double Ka Meetha"
+      ]
+    },
+    {
+      "id": "wa-ven-02",
+      "name": "Amma Ruchulu Tiffin Corner",
+      "booth": "B12",
+      "categories": [
+        "Food Street",
+        "Food Court"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info2@amma-ruchulu-tiffin-corner.example",
+      "website": "https://amma-ruchulu-tiffin-corner.example",
+      "popularItems": [
+        "Pesarattu",
+        "Ghee Karam Dosa",
+        "Punugulu",
+        "Filter Coffee"
+      ]
+    },
+    {
+      "id": "wa-ven-03",
+      "name": "Rayalaseema Ruchi Bhojanam",
+      "booth": "C13",
+      "categories": [
+        "Food Street",
+        "Food Court"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info3@rayalaseema-ruchi-bhojanam.example",
+      "website": "https://rayalaseema-ruchi-bhojanam.example",
+      "popularItems": [
+        "Ragi Sangati",
+        "Natu Kodi Pulusu",
+        "Mirapakaya Bajji",
+        "Bobbatlu"
+      ]
+    },
+    {
+      "id": "wa-ven-04",
+      "name": "Konaseema Sweets & Snacks",
+      "booth": "D14",
+      "categories": [
+        "Food Street",
+        "Food Court"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info4@konaseema-sweets-snacks.example",
+      "website": "https://konaseema-sweets-snacks.example",
+      "popularItems": [
+        "Pootharekulu",
+        "Ariselu",
+        "Kaja",
+        "Murukulu"
+      ]
+    },
+    {
+      "id": "wa-ven-05",
+      "name": "Coastal Seafood Telugu Kitchen",
+      "booth": "E15",
+      "categories": [
+        "Food Street",
+        "Food Court"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info5@coastal-seafood-telugu-kitchen.example",
+      "website": "https://coastal-seafood-telugu-kitchen.example",
+      "popularItems": [
+        "Royyala Iguru",
+        "Fish Pulusu",
+        "Nellore Chapala Pulusu",
+        "Curd Rice"
+      ]
+    },
+    {
+      "id": "wa-ven-06",
+      "name": "Sri Lakshmi Jewels",
+      "booth": "F16",
+      "categories": [
+        "Jewelry"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info6@sri-lakshmi-jewels.example",
+      "website": "https://sri-lakshmi-jewels.example"
+    },
+    {
+      "id": "wa-ven-07",
+      "name": "DesiNest Realty Advisors",
+      "booth": "A17",
+      "categories": [
+        "Real Estate"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info7@desinest-realty-advisors.example",
+      "website": "https://desinest-realty-advisors.example"
+    },
+    {
+      "id": "wa-ven-08",
+      "name": "NRI Tax & Compliance Desk",
+      "booth": "B18",
+      "categories": [
+        "Tax",
+        "Immigration"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info8@nri-tax-compliance-desk.example",
+      "website": "https://nri-tax-compliance-desk.example"
+    },
+    {
+      "id": "wa-ven-09",
+      "name": "VisaPath Immigration Counsel",
+      "booth": "C19",
+      "categories": [
+        "Tax",
+        "Immigration"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info9@visapath-immigration-counsel.example",
+      "website": "https://visapath-immigration-counsel.example"
+    },
+    {
+      "id": "wa-ven-10",
+      "name": "IvyRise SAT & College Coaching",
+      "booth": "D20",
+      "categories": [
+        "SAT",
+        "College Coaching"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info10@ivyrise-sat-college-coaching.example",
+      "website": "https://ivyrise-sat-college-coaching.example"
+    },
+    {
+      "id": "wa-ven-11",
+      "name": "CodeBridge IT Staffing",
+      "booth": "E21",
+      "categories": [
+        "IT Staffing"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info11@codebridge-it-staffing.example",
+      "website": "https://codebridge-it-staffing.example"
+    },
+    {
+      "id": "wa-ven-12",
+      "name": "Sri Venkateswara Temple Services",
+      "booth": "F22",
+      "categories": [
+        "Temples",
+        "Community Org"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info12@sri-venkateswara-temple-services.example",
+      "website": "https://sri-venkateswara-temple-services.example"
+    },
+    {
+      "id": "wa-ven-13",
+      "name": "Mana Travel Planners",
+      "booth": "A23",
+      "categories": [
+        "Travel"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info13@mana-travel-planners.example",
+      "website": "https://mana-travel-planners.example"
+    },
+    {
+      "id": "wa-ven-14",
+      "name": "MatchPoint Telugu Matrimony",
+      "booth": "B24",
+      "categories": [
+        "Matrimony"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info14@matchpoint-telugu-matrimony.example",
+      "website": "https://matchpoint-telugu-matrimony.example"
+    },
+    {
+      "id": "wa-ven-15",
+      "name": "Aakruti Designer Boutique",
+      "booth": "C25",
+      "categories": [
+        "Boutiques"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info15@aakruti-designer-boutique.example",
+      "website": "https://aakruti-designer-boutique.example"
+    },
+    {
+      "id": "wa-ven-16",
+      "name": "CloudCrest AI Solutions",
+      "booth": "D26",
+      "categories": [
+        "Tech",
+        "Startup"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info16@cloudcrest-ai-solutions.example",
+      "website": "https://cloudcrest-ai-solutions.example"
+    },
+    {
+      "id": "wa-ven-17",
+      "name": "Founders Alley Expo Booth",
+      "booth": "E27",
+      "categories": [
+        "Startup",
+        "Business Expo"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info17@founders-alley-expo-booth.example",
+      "website": "https://founders-alley-expo-booth.example"
+    },
+    {
+      "id": "wa-ven-18",
+      "name": "Seva Blood and Donor Network",
+      "booth": "F28",
+      "categories": [
+        "Community Service"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info18@seva-blood-and-donor-network.example",
+      "website": "https://seva-blood-and-donor-network.example"
+    },
+    {
+      "id": "wa-ven-19",
+      "name": "WellSpring Family Clinics",
+      "booth": "A29",
+      "categories": [
+        "Health"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info19@wellspring-family-clinics.example",
+      "website": "https://wellspring-family-clinics.example"
+    },
+    {
+      "id": "wa-ven-20",
+      "name": "Andhra Home Loans",
+      "booth": "B30",
+      "categories": [
+        "Real Estate"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info20@andhra-home-loans.example",
+      "website": "https://andhra-home-loans.example"
+    },
+    {
+      "id": "wa-ven-21",
+      "name": "Telugu Arts Academy",
+      "booth": "C31",
+      "categories": [
+        "Culture"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info21@telugu-arts-academy.example",
+      "website": "https://telugu-arts-academy.example"
+    },
+    {
+      "id": "wa-ven-22",
+      "name": "FinEdge Remit",
+      "booth": "D32",
+      "categories": [
+        "FinTech"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info22@finedge-remit.example",
+      "website": "https://finedge-remit.example"
+    },
+    {
+      "id": "wa-ven-23",
+      "name": "Youth Robotics League",
+      "booth": "E33",
+      "categories": [
+        "Youth",
+        "STEM"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info23@youth-robotics-league.example",
+      "website": "https://youth-robotics-league.example"
+    },
+    {
+      "id": "wa-ven-24",
+      "name": "WomenLead Circle",
+      "booth": "F34",
+      "categories": [
+        "Women in Tech"
+      ],
+      "deal": "Seattle attendees get convention specials and bundle pricing.",
+      "email": "info24@womenlead-circle.example",
+      "website": "https://womenlead-circle.example"
+    }
+  ]
+}

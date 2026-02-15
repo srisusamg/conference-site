@@ -1,3 +1,5 @@
+import { sessionAnchorId } from "../shared/anchorIds.js";
+
 function createMetaRow(label, value) {
   const row = document.createElement("div");
   row.className = "session-meta";
@@ -30,6 +32,7 @@ export function renderSessions(container, sessions, savedIds, onToggleSave) {
   sessions.forEach((session) => {
     const card = document.createElement("article");
     card.className = "session-card";
+    card.id = sessionAnchorId(session.id || session.sessionId || session.title);
 
     const title = document.createElement("h2");
     title.className = "session-title";

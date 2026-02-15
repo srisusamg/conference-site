@@ -1,0 +1,436 @@
+{
+  "sessions": [
+    {
+      "id": "ny-sess-01",
+      "title": "Opening Keynote: Future of Telugu NRI Leadership",
+      "description": "Opening Keynote: Future of Telugu NRI Leadership at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "Leadership and Community",
+      "room": "Hall H",
+      "speakerId": "ny-spk-01",
+      "type": "Keynote",
+      "primaryTrack": "Leadership",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Leadership",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-02",
+      "title": "Applied AI for Telugu Community Services",
+      "description": "Applied AI for Telugu Community Services at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "AI and Data",
+      "room": "Hall A",
+      "speakerId": "ny-spk-02",
+      "type": "Workshop",
+      "primaryTrack": "AI and Data",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-03",
+      "title": "Women in Tech: Growth to Executive Roles",
+      "description": "Women in Tech: Growth to Executive Roles at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Women in Tech",
+      "room": "Hall B",
+      "speakerId": "ny-spk-03",
+      "type": "Panel",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-04",
+      "title": "Youth Hackathon Launch: Build for Bharat",
+      "description": "Youth Hackathon Launch: Build for Bharat at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Youth and Hackathon",
+      "room": "Hall C",
+      "speakerId": "ny-spk-04",
+      "type": "Youth",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-05",
+      "title": "Startup & Business Expo Showfloor Kickoff",
+      "description": "Startup & Business Expo Showfloor Kickoff at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Startup and Business Expo",
+      "room": "Hall D",
+      "speakerId": "ny-spk-05",
+      "type": "Expo",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-06",
+      "title": "Healthcare for NRI Families: Preventive Care",
+      "description": "Healthcare for NRI Families: Preventive Care at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Health and Wellness",
+      "room": "Hall E",
+      "speakerId": "ny-spk-06",
+      "type": "Talk",
+      "primaryTrack": "Health",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Health",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-07",
+      "title": "Devotional Seva Planning for Local Temples",
+      "description": "Devotional Seva Planning for Local Temples at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Devotional and Community Service",
+      "room": "Hall F",
+      "speakerId": "ny-spk-07",
+      "type": "Community Service",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-08",
+      "title": "Cultural Night Rehearsal: Telugu Classics",
+      "description": "Cultural Night Rehearsal: Telugu Classics at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 1",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Cultural Night",
+      "room": "Hall G",
+      "speakerId": "ny-spk-08",
+      "type": "Cultural",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-09",
+      "title": "Cloud Careers and Interview Readiness",
+      "description": "Cloud Careers and Interview Readiness at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "Career Growth",
+      "room": "Hall H",
+      "speakerId": "ny-spk-09",
+      "type": "Workshop",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-10",
+      "title": "FinTech, Remittance, and Compliance 2026",
+      "description": "FinTech, Remittance, and Compliance 2026 at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "Business and Finance",
+      "room": "Hall A",
+      "speakerId": "ny-spk-10",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-11",
+      "title": "College Admissions for Telugu High Schoolers",
+      "description": "College Admissions for Telugu High Schoolers at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Education and Youth",
+      "room": "Hall B",
+      "speakerId": "ny-spk-11",
+      "type": "Talk",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-12",
+      "title": "Immigration and Visa Planning Q&A",
+      "description": "Immigration and Visa Planning Q&A at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Immigration and Legal",
+      "room": "Hall C",
+      "speakerId": "ny-spk-12",
+      "type": "Panel",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-13",
+      "title": "Andhra Food Entrepreneurship Masterclass",
+      "description": "Andhra Food Entrepreneurship Masterclass at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Food Street and SME",
+      "room": "Hall D",
+      "speakerId": "ny-spk-13",
+      "type": "Workshop",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-14",
+      "title": "Media, Storytelling, and Telugu Identity",
+      "description": "Media, Storytelling, and Telugu Identity at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Culture and Media",
+      "room": "Hall E",
+      "speakerId": "ny-spk-14",
+      "type": "Talk",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-15",
+      "title": "Mental Wellness for Busy Professionals",
+      "description": "Mental Wellness for Busy Professionals at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Health and Wellness",
+      "room": "Hall F",
+      "speakerId": "ny-spk-15",
+      "type": "Talk",
+      "primaryTrack": "Health",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Health",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-16",
+      "title": "Matrimony Conversations for Modern Families",
+      "description": "Matrimony Conversations for Modern Families at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 2",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Family and Community",
+      "room": "Hall G",
+      "speakerId": "ny-spk-16",
+      "type": "Panel",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-17",
+      "title": "Product Management for AI Startups",
+      "description": "Product Management for AI Startups at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "9:00 AM - 10:00 AM",
+      "track": "AI and Product",
+      "room": "Hall H",
+      "speakerId": "ny-spk-17",
+      "type": "Workshop",
+      "primaryTrack": "AI and Data",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "AI and Data",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-18",
+      "title": "Youth Hackathon Finals and Awards",
+      "description": "Youth Hackathon Finals and Awards at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "10:15 AM - 11:15 AM",
+      "track": "Youth and Hackathon",
+      "room": "Hall A",
+      "speakerId": "ny-spk-18",
+      "type": "Youth",
+      "primaryTrack": "Youth",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Youth",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-19",
+      "title": "Investor AMA: From MVP to Series A",
+      "description": "Investor AMA: From MVP to Series A at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "11:30 AM - 12:30 PM",
+      "track": "Startup Fundraising",
+      "room": "Hall B",
+      "speakerId": "ny-spk-01",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-20",
+      "title": "Temple Volunteering and Blood Drive Ops",
+      "description": "Temple Volunteering and Blood Drive Ops at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "1:30 PM - 2:30 PM",
+      "track": "Devotional and Community Service",
+      "room": "Hall C",
+      "speakerId": "ny-spk-02",
+      "type": "Community Service",
+      "primaryTrack": "Community Service",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Community Service",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-21",
+      "title": "Cultural Night Main Stage Performance",
+      "description": "Cultural Night Main Stage Performance at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "2:45 PM - 3:45 PM",
+      "track": "Cultural Night",
+      "room": "Hall D",
+      "speakerId": "ny-spk-03",
+      "type": "Cultural",
+      "primaryTrack": "Cultural Showcase",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Cultural Showcase",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-22",
+      "title": "Career Switch Playbook for H1B Professionals",
+      "description": "Career Switch Playbook for H1B Professionals at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "4:00 PM - 5:00 PM",
+      "track": "Career Growth",
+      "room": "Hall E",
+      "speakerId": "ny-spk-04",
+      "type": "Talk",
+      "primaryTrack": "Career",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Career",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-23",
+      "title": "Women Founder Spotlight and Pitch Clinic",
+      "description": "Women Founder Spotlight and Pitch Clinic at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "5:15 PM - 6:15 PM",
+      "track": "Women in Tech",
+      "room": "Hall F",
+      "speakerId": "ny-spk-05",
+      "type": "Panel",
+      "primaryTrack": "Entrepreneurship",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Entrepreneurship",
+        "Queens"
+      ]
+    },
+    {
+      "id": "ny-sess-24",
+      "title": "Closing Plenary: Build, Serve, Celebrate",
+      "description": "Closing Plenary: Build, Serve, Celebrate at Telugu Innovation Forum Queens 2026 in Queens, NY with practical guidance for Telugu/Indian NRI attendees.",
+      "day": "Day 3",
+      "time": "6:30 PM - 7:30 PM",
+      "track": "Leadership and Community",
+      "room": "Hall G",
+      "speakerId": "ny-spk-06",
+      "type": "Keynote",
+      "primaryTrack": "Leadership",
+      "tags": [
+        "Telugu",
+        "NRI",
+        "Leadership",
+        "Queens"
+      ]
+    }
+  ]
+}

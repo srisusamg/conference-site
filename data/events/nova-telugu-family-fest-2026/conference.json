@@ -1,0 +1,21 @@
+{
+  "id": "nova-telugu-family-fest-2026",
+  "name": "NoVA Telugu Family Fest 2026",
+  "state": "VA",
+  "city": "Fairfax",
+  "venue": "Fairfax County Government Center",
+  "dateRange": "2026-06-20",
+  "hostOrganization": "NoVA Telugu Association",
+  "theme": "Telugu/Indian NRI Growth, Culture, and Innovation in Fairfax",
+  "contactEmail": "hello@nova-telugu-family-fest-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship and Startup Expo",
+    "Career and Women in Tech",
+    "Youth and Hackathon",
+    "Cultural Night Showcase",
+    "Devotional and Community Service",
+    "Food Street and Family"
+  ],
+  "description": "NoVA Telugu Family Fest 2026 unites Telugu/Indian NRI families in Fairfax with technology, entrepreneurship, cultural programs, and seva-driven community events."
+}

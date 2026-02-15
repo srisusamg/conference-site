@@ -53,6 +53,39 @@ nav ul li a:hover {
     background: rgba(255, 255, 255, 0.14);
 }
 
+.ai-toggle-item {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 8px;
+}
+
+.ai-toggle-wrap {
+    display: grid;
+    gap: 2px;
+}
+
+.ai-toggle-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.ai-toggle-label input {
+    accent-color: var(--color-primary);
+}
+
+.ai-toggle-note {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 0.75rem;
+    line-height: 1.2;
+    max-width: 230px;
+}
+
 h1 {
     text-align: center;
     margin: 24px 16px 18px;
@@ -322,6 +355,43 @@ main {
     max-width: 980px;
 }
 
+.autopilot-panel {
+    display: grid;
+    gap: 12px;
+}
+
+.autopilot-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    align-items: end;
+}
+
+.autopilot-grid label {
+    font-weight: 600;
+}
+
+.autopilot-grid input,
+.autopilot-grid select,
+#autopilot-interest {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background-color: var(--color-surface);
+}
+
+.autopilot-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.autopilot-timeline {
+    display: grid;
+    gap: 12px;
+}
+
 .agenda-filters label,
 .vendor-filters label {
     font-weight: 600;
@@ -497,10 +567,108 @@ main {
     color: var(--color-text);
 }
 
+.concierge-panel {
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    gap: 14px;
+}
+
+.concierge-note {
+    margin: 0;
+    color: var(--color-muted);
+}
+
+.concierge-input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--color-outline);
+    background: var(--color-surface);
+    padding: 10px 12px;
+    font: inherit;
+}
+
+.concierge-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.concierge-results {
+    display: grid;
+    gap: 12px;
+}
+
+.concierge-card {
+    background: var(--color-surface);
+    border-radius: var(--radius-card);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-soft);
+}
+
+.concierge-card-title {
+    margin: 0 0 8px;
+}
+
+.concierge-card-text {
+    margin: 0 0 8px;
+}
+
+.concierge-sources {
+    margin: 0;
+    padding-left: 18px;
+    display: grid;
+    gap: 4px;
+}
+
 input:focus,
 select:focus,
 button:focus,
 a:focus {
     outline: 2px solid rgba(217, 119, 6, 0.45);
     outline-offset: 2px;
+}
+
+.ai-status-toast {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1000;
+    background: var(--color-surface);
+    border: 1px solid var(--color-outline);
+    box-shadow: var(--shadow-soft);
+    border-radius: 12px;
+    padding: 10px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    max-width: min(92vw, 360px);
+}
+
+.ai-status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: var(--color-muted);
+    flex: 0 0 auto;
+}
+
+.ai-status-text {
+    font-size: 0.92rem;
+}
+
+.ai-status-toast.is-downloading .ai-status-dot {
+    background: var(--color-primary);
+}
+
+.ai-status-toast.is-loading .ai-status-dot {
+    background: var(--color-muted);
+}
+
+.ai-status-toast.is-ready .ai-status-dot {
+    background: var(--color-secondary);
+}
+
+.ai-status-toast.is-error .ai-status-dot {
+    background: var(--color-primary-strong);
 }
