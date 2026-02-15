@@ -1,3 +1,5 @@
+import { vendorAnchorId } from "../shared/anchorIds.js";
+
 function createCategoryChip(label) {
   const chip = document.createElement("span");
   chip.className = "vendor-chip";
@@ -21,6 +23,7 @@ export function renderVendors(container, vendors) {
   vendors.forEach((vendor) => {
     const card = document.createElement("article");
     card.className = "vendor-card";
+    card.id = vendorAnchorId(vendor.id || vendor.name);
 
     const title = document.createElement("h2");
     title.className = "vendor-name";

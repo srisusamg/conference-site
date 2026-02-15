@@ -1,5 +1,24 @@
 import { loadEventsCatalog, findEventById, getFeaturedEvents } from "./dataLoader.js";
 import { getEventContext } from "./eventContext.js";
+import { initAIEnableToggle } from "../ai/aiEnableToggle.js";
+import { getSelectedEventId } from "../eventContext.js";
+import { withQuery } from "./basePath.js";
+
+function ensureConciergeLink() {
+  const navList = document.querySelector("nav ul");
+  if (!navList || navList.querySelector("[data-link='concierge']")) {
+    return;
+  }
+
+  const eventId = getSelectedEventId();
+  const item = document.createElement("li");
+  const link = document.createElement("a");
+  link.dataset.link = "concierge";
+  link.textContent = "Concierge";
+  link.href = withQuery("concierge.html", eventId ? { id: eventId } : {});
+  item.appendChild(link);
+  navList.appendChild(item);
+}
 
 
 function parseDate(value) {
@@ -60,6 +79,9 @@ function renderUrgentBanner(announcement) {
 }
 
 async function initUrgentBanner() {
+  initAIEnableToggle();
+  ensureConciergeLink();
+
   try {
     const events = await loadEventsCatalog();
     const context = getEventContext();

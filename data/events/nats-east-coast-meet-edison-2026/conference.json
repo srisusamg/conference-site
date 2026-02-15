@@ -1,0 +1,21 @@
+{
+  "id": "nats-east-coast-meet-edison-2026",
+  "name": "NATS East Coast Telugu Meet 2026",
+  "state": "NJ",
+  "city": "Edison",
+  "venue": "New Jersey Convention and Exposition Center",
+  "dateRange": "2026-05-22 to 2026-05-24",
+  "hostOrganization": "NATS",
+  "theme": "Telugu/Indian NRI Growth, Culture, and Innovation in Edison",
+  "contactEmail": "hello@nats-east-coast-meet-edison-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship and Startup Expo",
+    "Career and Women in Tech",
+    "Youth and Hackathon",
+    "Cultural Night Showcase",
+    "Devotional and Community Service",
+    "Food Street and Family"
+  ],
+  "description": "NATS East Coast Telugu Meet 2026 unites Telugu/Indian NRI families in Edison with technology, entrepreneurship, cultural programs, and seva-driven community events."
+}

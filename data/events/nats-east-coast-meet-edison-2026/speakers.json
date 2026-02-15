@@ -1,0 +1,238 @@
+{
+  "speakers": [
+    {
+      "id": "nj-spk-01",
+      "name": "Madhavi Pinninti",
+      "title": "AI Architect",
+      "organization": "CloudBridge AI",
+      "bio": "Madhavi Pinninti is a Telugu/Indian diaspora leader in Edison focused on cloudbridge ai initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-02",
+      "name": "Kiranmayi Rachakonda",
+      "title": "Founder & CEO",
+      "organization": "Mana Ventures",
+      "bio": "Kiranmayi Rachakonda is a Telugu/Indian diaspora leader in Edison focused on mana ventures initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-03",
+      "name": "Phanindra Mannava",
+      "title": "Cardiologist",
+      "organization": "Sanjeevani Health Network",
+      "bio": "Phanindra Mannava is a Telugu/Indian diaspora leader in Edison focused on sanjeevani health network initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-04",
+      "name": "Sushmita Komaragiri",
+      "title": "Classical Artist",
+      "organization": "Natya Vedika USA",
+      "bio": "Sushmita Komaragiri is a Telugu/Indian diaspora leader in Edison focused on natya vedika usa initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-05",
+      "name": "Rohith Velivela",
+      "title": "Community Lead",
+      "organization": "Telugu Seva Circle",
+      "bio": "Rohith Velivela is a Telugu/Indian diaspora leader in Edison focused on telugu seva circle initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-06",
+      "name": "Lavanya Paruchuri",
+      "title": "Product Director",
+      "organization": "NorthStar FinTech",
+      "bio": "Lavanya Paruchuri is a Telugu/Indian diaspora leader in Edison focused on northstar fintech initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-07",
+      "name": "Anudeep Malladi",
+      "title": "Startup Mentor",
+      "organization": "IndUS Launchpad",
+      "bio": "Anudeep Malladi is a Telugu/Indian diaspora leader in Edison focused on indus launchpad initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-08",
+      "name": "Bhargavi Pulipati",
+      "title": "Women in Tech Chair",
+      "organization": "WomenCode Telugu",
+      "bio": "Bhargavi Pulipati is a Telugu/Indian diaspora leader in Edison focused on womencode telugu initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-09",
+      "name": "Sandeep Kommareddy",
+      "title": "Youth Mentor",
+      "organization": "NextGen Telugu Labs",
+      "bio": "Sandeep Kommareddy is a Telugu/Indian diaspora leader in Edison focused on nextgen telugu labs initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-10",
+      "name": "Ananya Sunkara",
+      "title": "Immigration Attorney",
+      "organization": "Pathway Legal Group",
+      "bio": "Ananya Sunkara is a Telugu/Indian diaspora leader in Edison focused on pathway legal group initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-11",
+      "name": "Vivek Pusapati",
+      "title": "Tax Advisor",
+      "organization": "NRI Tax Desk",
+      "bio": "Vivek Pusapati is a Telugu/Indian diaspora leader in Edison focused on nri tax desk initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-12",
+      "name": "Keerthana Donepudi",
+      "title": "Real Estate Broker",
+      "organization": "Desi Homes Realty",
+      "bio": "Keerthana Donepudi is a Telugu/Indian diaspora leader in Edison focused on desi homes realty initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-13",
+      "name": "Praveen Peddinti",
+      "title": "Cybersecurity Lead",
+      "organization": "SecureGrid Systems",
+      "bio": "Praveen Peddinti is a Telugu/Indian diaspora leader in Edison focused on securegrid systems initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-14",
+      "name": "Sowjanya Vatluri",
+      "title": "Data Scientist",
+      "organization": "InsightBloom Analytics",
+      "bio": "Sowjanya Vatluri is a Telugu/Indian diaspora leader in Edison focused on insightbloom analytics initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-15",
+      "name": "Aravind Kondapalli",
+      "title": "Public Health Specialist",
+      "organization": "WellSpring Clinics",
+      "bio": "Aravind Kondapalli is a Telugu/Indian diaspora leader in Edison focused on wellspring clinics initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-16",
+      "name": "Navya Pinninti",
+      "title": "Film Music Curator",
+      "organization": "Raaga Echo Collective",
+      "bio": "Navya Pinninti is a Telugu/Indian diaspora leader in Edison focused on raaga echo collective initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-17",
+      "name": "Sai Kiran Rachakonda",
+      "title": "College Admissions Coach",
+      "organization": "IvyPath Coaching",
+      "bio": "Sai Kiran Rachakonda is a Telugu/Indian diaspora leader in Edison focused on ivypath coaching initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    },
+    {
+      "id": "nj-spk-18",
+      "name": "Sindhu Mannava",
+      "title": "Temple Trustee",
+      "organization": "Sri Venkateswara Community",
+      "bio": "Sindhu Mannava is a Telugu/Indian diaspora leader in Edison focused on sri venkateswara community initiatives for NRI families.",
+      "topics": [
+        "Telugu Community",
+        "NRI Leadership",
+        "Innovation",
+        "Edison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "telugu-innovation-forum-queens-2026",
+  "name": "Telugu Innovation Forum Queens 2026",
+  "state": "NY",
+  "city": "Queens",
+  "venue": "Queens College Student Union",
+  "dateRange": "2026-09-12",
+  "hostOrganization": "New York Telugu Professionals Council",
+  "theme": "Telugu/Indian NRI Growth, Culture, and Innovation in Queens",
+  "contactEmail": "hello@telugu-innovation-forum-queens-2026.example",
+  "tracks": [
+    "AI and Data",
+    "Entrepreneurship and Startup Expo",
+    "Career and Women in Tech",
+    "Youth and Hackathon",
+    "Cultural Night Showcase",
+    "Devotional and Community Service",
+    "Food Street and Family"
+  ],
+  "description": "Telugu Innovation Forum Queens 2026 unites Telugu/Indian NRI families in Queens with technology, entrepreneurship, cultural programs, and seva-driven community events."
+}

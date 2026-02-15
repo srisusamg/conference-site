@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Ask the Event Concierge</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/state.html">State Events</a></li>
+      <li><a href="pages/event.html">Event</a></li>
+      <li><a href="pages/agenda.html">Agenda</a></li>
+      <li><a href="pages/vendors.html">Vendors</a></li>
+      <li><a href="pages/announcements.html">Announcements</a></li>
+      <li><a href="concierge.html">Concierge</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Ask the Event</h1>
+    <section id="selected-event-banner" class="selected-event-banner" hidden></section>
+
+    <section class="concierge-panel">
+      <p id="concierge-note" class="concierge-note">Ask a question about sessions, vendors, announcements, or venue details.</p>
+
+      <label for="concierge-question">Your question</label>
+      <textarea id="concierge-question" class="concierge-input" rows="4" placeholder="Example: What AI sessions are on day 1?"></textarea>
+
+      <div class="concierge-actions">
+        <button id="concierge-retrieve" type="button" class="browse-button">Find relevant items</button>
+        <button id="concierge-answer" type="button" class="browse-button" disabled>Generate short answer (slower)</button>
+        <button id="concierge-clear-cache" type="button" class="browse-button">Clear AI Cache for this event</button>
+      </div>
+
+      <section id="concierge-answer-box" class="state-message" hidden>
+        <h2 class="section-title">Short answer</h2>
+        <p id="concierge-answer-text"></p>
+        <p id="concierge-answer-score" class="event-card-meta"></p>
+        <ul id="concierge-answer-sources" class="concierge-sources"></ul>
+      </section>
+
+      <section>
+        <h2 class="section-title">Top matches</h2>
+        <div id="concierge-results" class="concierge-results" aria-live="polite"></div>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="js/shared/urgent-banner.js"></script>
+  <script type="module" src="js/shared/selected-event-banner.js"></script>
+  <script type="module" src="js/concierge.js"></script>
+</body>
+</html>

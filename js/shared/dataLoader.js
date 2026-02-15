@@ -1,9 +1,9 @@
-import { resolvePath } from "./basePath.js";
+import { url } from "./basePath.js";
 
 const EVENTS_PATH = "data/events.json";
 
 async function fetchJson(path) {
-  const response = await fetch(resolvePath(path));
+  const response = await fetch(url(path));
   if (!response.ok) {
     throw new Error(`Failed to load ${path}: ${response.status}`);
   }
