@@ -7,7 +7,8 @@
   <title>Agenda</title>
 </head>
 <body>
-  <nav>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav aria-label="Primary">
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="state.html">State Events</a></li>
@@ -20,7 +21,7 @@
     </ul>
   </nav>
 
-  <main>
+  <main id="main-content" tabindex="-1">
     <h1>Conference Agenda</h1>
     <section id="selected-event-banner" class="selected-event-banner" hidden></section>
 
@@ -90,6 +91,7 @@
     import { buildFilterOptions, applyFilters } from "../js/agenda/filters.js";
     import { loadSavedIds, toggleSavedId, saveManyIds } from "../js/agenda/storage.js";
     import { url } from "../js/shared/basePath.js";
+    import { showSkeleton, clearSkeleton, showStatus } from "../js/shared/renderStates.js";
     import { requireEventId, eventDataPath } from "../js/eventContext.js";
 
     const state = {
@@ -130,6 +132,7 @@
     }
 
     function renderAgenda() {
+      clearSkeleton(agendaList);
       const filtered = applyFilters(state.sessions, {
         day: dayFilter.value,
         track: trackFilter.value,
@@ -155,6 +158,9 @@
 
     async function loadSessions() {
       try {
+        agendaList.setAttribute("aria-busy", "true");
+        showSkeleton(agendaList, { count: 4 });
+
         const eventId = requireEventId();
         if (!eventId) {
           return;
@@ -192,7 +198,9 @@
         renderAgenda();
       } catch (error) {
         console.error(error);
-        agendaList.textContent = "Unable to load agenda right now.";
+        showStatus(agendaList, "Unable to load agenda right now.", "error");
+      } finally {
+        agendaList.setAttribute("aria-busy", "false");
       }
     }
 

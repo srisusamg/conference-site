@@ -1,6 +1,7 @@
 import { url } from "../shared/basePath.js";
 import { announcementAnchorId } from "../shared/anchorIds.js";
 import { requireEventId, eventDataPath } from "../eventContext.js";
+import { showSkeleton, clearSkeleton, showStatus } from "../shared/renderStates.js";
 
 function parseDate(value) {
   const parsed = new Date(value);
@@ -37,13 +38,11 @@ function formatDate(value) {
 }
 
 function renderAnnouncements(container, items) {
+  clearSkeleton(container);
   container.innerHTML = "";
 
   if (!items.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty-state";
-    empty.textContent = "No announcements yet.";
-    container.appendChild(empty);
+    showStatus(container, "No announcements yet.", "empty");
     return;
   }
 
@@ -97,12 +96,17 @@ async function initAnnouncements() {
   }
 
   try {
+    list.setAttribute("aria-busy", "true");
+    showSkeleton(list, { count: 3 });
+
     const announcements = await loadAnnouncements(eventId);
     const sorted = sortByNewest(announcements);
     renderAnnouncements(list, sorted);
   } catch (error) {
     console.error(error);
-    list.textContent = "Unable to load announcements right now.";
+    showStatus(list, "Unable to load announcements right now.", "error");
+  } finally {
+    list.setAttribute("aria-busy", "false");
   }
 }
 

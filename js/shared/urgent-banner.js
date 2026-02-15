@@ -4,6 +4,37 @@ import { initAIEnableToggle } from "../ai/aiEnableToggle.js";
 import { getSelectedEventId } from "../eventContext.js";
 import { withQuery } from "./basePath.js";
 
+function enhanceNavigation() {
+  const nav = document.querySelector("nav");
+  if (!nav) {
+    return;
+  }
+
+  nav.setAttribute("aria-label", "Primary");
+  const currentPath = window.location.pathname.split("/").pop() || "index.html";
+
+  nav.querySelectorAll("a").forEach((anchor) => {
+    const href = anchor.getAttribute("href") || "";
+    if (!href || href.startsWith("#") || href.startsWith("http")) {
+      return;
+    }
+
+    let pathName = "";
+    try {
+      const resolved = new URL(anchor.href, window.location.href);
+      pathName = resolved.pathname.split("/").pop() || "";
+    } catch {
+      return;
+    }
+
+    if (pathName && pathName === currentPath) {
+      anchor.setAttribute("aria-current", "page");
+    } else {
+      anchor.removeAttribute("aria-current");
+    }
+  });
+}
+
 function ensureConciergeLink() {
   const navList = document.querySelector("nav ul");
   if (!navList || navList.querySelector("[data-link='concierge']")) {
@@ -79,6 +110,7 @@ function renderUrgentBanner(announcement) {
 }
 
 async function initUrgentBanner() {
+  enhanceNavigation();
   initAIEnableToggle();
   ensureConciergeLink();
 

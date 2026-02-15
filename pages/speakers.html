@@ -7,7 +7,8 @@
     <title>Speakers</title>
 </head>
 <body>
-    <nav>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <nav aria-label="Primary">
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="state.html">State Events</a></li>
@@ -18,9 +19,11 @@
             <li><a href="announcements.html">Announcements</a></li>
         </ul>
     </nav>
-    <h1>Conference Speakers</h1>
-    <section id="selected-event-banner" class="selected-event-banner" hidden></section>
-    <div id="speakers"></div>
+    <main id="main-content" tabindex="-1">
+        <h1>Conference Speakers</h1>
+        <section id="selected-event-banner" class="selected-event-banner" hidden></section>
+        <div id="speakers" aria-live="polite"></div>
+    </main>
     <script type="module" src="../js/shared/urgent-banner.js"></script>
     <script type="module" src="../js/shared/selected-event-banner.js"></script>
     <script type="module" src="../js/speakers/speakers.js"></script>

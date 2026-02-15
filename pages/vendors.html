@@ -7,7 +7,8 @@
   <title>Vendors</title>
 </head>
 <body>
-  <nav>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav aria-label="Primary">
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="state.html">State Events</a></li>
@@ -19,7 +20,7 @@
     </ul>
   </nav>
 
-  <main>
+  <main id="main-content" tabindex="-1">
     <h1>Vendor Expo</h1>
     <section id="selected-event-banner" class="selected-event-banner" hidden></section>
 
@@ -40,6 +41,7 @@
     import { renderVendors } from "../js/vendors/render.js";
     import { buildCategoryOptions, applyFilters } from "../js/vendors/filters.js";
     import { url } from "../js/shared/basePath.js";
+    import { showSkeleton, clearSkeleton, showStatus } from "../js/shared/renderStates.js";
     import { requireEventId, eventDataPath } from "../js/eventContext.js";
 
     const vendorList = document.getElementById("vendor-list");
@@ -67,6 +69,7 @@
     }
 
     function render() {
+      clearSkeleton(vendorList);
       const filtered = applyFilters(state.vendors, {
         category: categorySelect.value,
         query: searchInput.value
@@ -82,6 +85,9 @@
 
     async function loadVendors() {
       try {
+        vendorList.setAttribute("aria-busy", "true");
+        showSkeleton(vendorList, { count: 3 });
+
         const eventId = requireEventId();
         if (!eventId) {
           return;
@@ -102,7 +108,9 @@
         render();
       } catch (error) {
         console.error(error);
-        vendorList.textContent = "Unable to load vendors right now.";
+        showStatus(vendorList, "Unable to load vendors right now.", "error");
+      } finally {
+        vendorList.setAttribute("aria-busy", "false");
       }
     }
 
